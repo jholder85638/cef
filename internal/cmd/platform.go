@@ -6,7 +6,7 @@ import (
 	"path"
 	"runtime"
 
-	"github.com/richardwilkes/toolbox/atexit"
+	"github.com/jholder85638/toolbox/atexit"
 )
 
 var (

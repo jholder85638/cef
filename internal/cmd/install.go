@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/richardwilkes/toolbox/atexit"
-	"github.com/richardwilkes/toolbox/cmdline"
-	"github.com/richardwilkes/toolbox/xio"
+	"github.com/jholder85638/toolbox/atexit"
+	"github.com/jholder85638/toolbox/cmdline"
+	"github.com/jholder85638/toolbox/xio"
 )
 
 var cefVersionRegex = regexp.MustCompile(`^\s*#define\s+CEF_VERSION\s+"(\d+\.\d+\.\d+\.\w+)"\s*$`)
@@ -37,7 +37,7 @@ func (c *install) Name() string {
 }
 
 func (c *install) Usage() string {
-	return "Downloads and installs the headers and libraries necessary use the github.com/richardwilkes/cef/cef package."
+	return "Downloads and installs the headers and libraries necessary use the github.com/jholder85638/cef/cef package."
 }
 
 func (c *install) Run(cl *cmdline.CmdLine, args []string) error {

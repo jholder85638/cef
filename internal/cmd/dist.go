@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/richardwilkes/toolbox/atexit"
-	"github.com/richardwilkes/toolbox/cmdline"
-	"github.com/richardwilkes/toolbox/xio/fs"
+	"github.com/jholder85638/toolbox/atexit"
+	"github.com/jholder85638/toolbox/cmdline"
+	"github.com/jholder85638/toolbox/xio/fs"
 )
 
 type dist struct {

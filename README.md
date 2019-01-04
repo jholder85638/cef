@@ -19,8 +19,8 @@ go run main.go install
 This will install the necessary CEF headers and libraries into /usr/local/cef.
 
 ## Example application
-https://github.com/richardwilkes/webapp and
-https://github.com/richardwilkes/webapp-example use these bindings to create
+https://github.com/jholder85638/webapp and
+https://github.com/jholder85638/webapp-example use these bindings to create
 an example desktop application (currently macOS and Windows only).
 
 ## Updating the CEF version to be used

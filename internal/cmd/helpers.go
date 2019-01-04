@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/richardwilkes/toolbox/atexit"
+	"github.com/jholder85638/toolbox/atexit"
 )
 
 func createDir(dir string, mode os.FileMode) {

@@ -6,7 +6,7 @@ import (
 	"C"
 	"unsafe"
 
-	"github.com/richardwilkes/toolbox/xmath/geom"
+	"github.com/jholder85638/toolbox/xmath/geom"
 )
 
 // NewWindowInfo creates a new default WindowInfo instance.

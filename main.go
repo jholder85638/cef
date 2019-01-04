@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/richardwilkes/cef/internal/cmd"
-	"github.com/richardwilkes/toolbox/atexit"
-	"github.com/richardwilkes/toolbox/cmdline"
+	"github.com/jholder85638/cef/internal/cmd"
+	"github.com/jholder85638/toolbox/atexit"
+	"github.com/jholder85638/toolbox/cmdline"
 )
 
 const desiredCEFVersion = "3.3538.1852.gcb937fc"

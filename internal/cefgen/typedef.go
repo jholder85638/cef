@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/richardwilkes/toolbox/log/jot"
-	"github.com/richardwilkes/toolbox/txt"
+	"github.com/jholder85638/toolbox/log/jot"
+	"github.com/jholder85638/toolbox/txt"
 )
 
 var typedefNamingRegex = regexp.MustCompile(`^.+ (.+) '([^']+)'`)

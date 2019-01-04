@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/richardwilkes/toolbox/errs"
-	"github.com/richardwilkes/toolbox/log/jot"
-	"github.com/richardwilkes/toolbox/txt"
+	"github.com/jholder85638/toolbox/errs"
+	"github.com/jholder85638/toolbox/log/jot"
+	"github.com/jholder85638/toolbox/txt"
 )
 
 var colRegex = regexp.MustCompile(`<col:(\d+)(, col:(\d+))?>`)
