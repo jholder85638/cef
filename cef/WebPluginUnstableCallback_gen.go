@@ -16,7 +16,7 @@ type WebPluginUnstableCallbackProxy interface {
 	IsUnstable(self *WebPluginUnstableCallback, path string, unstable int32)
 }
 
-// WebPluginUnstableCallback (cef_web_plugin_unstable_callback_t from include/capi/cef_web_plugin_capi.h)
+// WebPluginUnstableCallback (cef_web_plugin_unstable_callback_t from .\include/capi/cef_web_plugin_capi.h)
 // Structure to implement for receiving unstable plugin information. The
 // functions of this structure will be called on the browser process IO thread.
 type WebPluginUnstableCallback C.cef_web_plugin_unstable_callback_t

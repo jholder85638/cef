@@ -23,7 +23,7 @@ type ServerHandlerProxy interface {
 	OnWebSocketMessage(self *ServerHandler, server *Server, connection_id int32, data unsafe.Pointer, data_size uint64)
 }
 
-// ServerHandler (cef_server_handler_t from include/capi/cef_server_capi.h)
+// ServerHandler (cef_server_handler_t from include\capi\cef_server_capi.h)
 // Implement this structure to handle HTTP server requests. A new thread will be
 // created for each cef_server_t::CreateServer call (the "dedicated server
 // thread"), and the functions of this structure will be called on that thread.

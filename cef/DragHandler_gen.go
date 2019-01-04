@@ -17,7 +17,7 @@ type DragHandlerProxy interface {
 	OnDraggableRegionsChanged(self *DragHandler, browser *Browser, regionsCount uint64, regions *DraggableRegion)
 }
 
-// DragHandler (cef_drag_handler_t from include/capi/cef_drag_handler_capi.h)
+// DragHandler (cef_drag_handler_t from .\include/capi/cef_drag_handler_capi.h)
 // Implement this structure to handle events related to dragging. The functions
 // of this structure will be called on the UI thread.
 type DragHandler C.cef_drag_handler_t

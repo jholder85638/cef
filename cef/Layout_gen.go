@@ -10,7 +10,7 @@ import (
 	"C"
 )
 
-// Layout (cef_layout_t from include/capi/views/cef_layout_capi.h)
+// Layout (cef_layout_t from .\include/capi/views/cef_layout_capi.h)
 // A Layout handles the sizing of the children of a Panel according to
 // implementation-specific heuristics. Methods must be called on the browser
 // process UI thread unless otherwise indicated.

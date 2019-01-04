@@ -8,7 +8,7 @@ import (
 	"C"
 )
 
-// SchemeRegistrar (cef_scheme_registrar_t from include/capi/cef_scheme_capi.h)
+// SchemeRegistrar (cef_scheme_registrar_t from .\include/capi/cef_scheme_capi.h)
 // Structure that manages custom scheme registrations.
 type SchemeRegistrar C.cef_scheme_registrar_t
 

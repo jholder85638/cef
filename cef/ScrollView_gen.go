@@ -14,7 +14,7 @@ import (
 	"C"
 )
 
-// ScrollView (cef_scroll_view_t from include/capi/views/cef_scroll_view_capi.h)
+// ScrollView (cef_scroll_view_t from include\capi\views\cef_scroll_view_capi.h)
 // A ScrollView will show horizontal and/or vertical scrollbars when necessary
 // based on the size of the attached content view. Methods must be called on the
 // browser process UI thread unless otherwise indicated.

@@ -24,7 +24,7 @@ import (
 	"C"
 )
 
-// DownloadItem (cef_download_item_t from include/capi/cef_download_item_capi.h)
+// DownloadItem (cef_download_item_t from .\include/capi/cef_download_item_capi.h)
 // Structure used to represent a download item.
 type DownloadItem C.cef_download_item_t
 

@@ -16,7 +16,7 @@ type FindHandlerProxy interface {
 	OnFindResult(self *FindHandler, browser *Browser, identifier, count int32, selectionRect *Rect, activeMatchOrdinal, finalUpdate int32)
 }
 
-// FindHandler (cef_find_handler_t from include/capi/cef_find_handler_capi.h)
+// FindHandler (cef_find_handler_t from .\include/capi/cef_find_handler_capi.h)
 // Implement this structure to handle events related to find results. The
 // functions of this structure will be called on the UI thread.
 type FindHandler C.cef_find_handler_t

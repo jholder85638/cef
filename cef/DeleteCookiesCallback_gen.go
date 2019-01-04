@@ -16,7 +16,7 @@ type DeleteCookiesCallbackProxy interface {
 	OnComplete(self *DeleteCookiesCallback, num_deleted int32)
 }
 
-// DeleteCookiesCallback (cef_delete_cookies_callback_t from include/capi/cef_cookie_capi.h)
+// DeleteCookiesCallback (cef_delete_cookies_callback_t from .\include/capi/cef_cookie_capi.h)
 // Structure to implement to be notified of asynchronous completion via
 // cef_cookie_manager_t::delete_cookies().
 type DeleteCookiesCallback C.cef_delete_cookies_callback_t

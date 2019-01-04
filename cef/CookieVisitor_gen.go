@@ -16,7 +16,7 @@ type CookieVisitorProxy interface {
 	Visit(self *CookieVisitor, cookie *Cookie, count, total int32, deleteCookie *int32) int32
 }
 
-// CookieVisitor (cef_cookie_visitor_t from include/capi/cef_cookie_capi.h)
+// CookieVisitor (cef_cookie_visitor_t from .\include/capi/cef_cookie_capi.h)
 // Structure to implement for visiting cookie values. The functions of this
 // structure will always be called on the IO thread.
 type CookieVisitor C.cef_cookie_visitor_t

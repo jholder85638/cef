@@ -16,7 +16,7 @@ type RunFileDialogCallbackProxy interface {
 	OnFileDialogDismissed(self *RunFileDialogCallback, selected_accept_filter int32, file_paths StringList)
 }
 
-// RunFileDialogCallback (cef_run_file_dialog_callback_t from include/capi/cef_browser_capi.h)
+// RunFileDialogCallback (cef_run_file_dialog_callback_t from .\include/capi/cef_browser_capi.h)
 // Callback structure for cef_browser_host_t::RunFileDialog. The functions of
 // this structure will be called on the browser process UI thread.
 type RunFileDialogCallback C.cef_run_file_dialog_callback_t

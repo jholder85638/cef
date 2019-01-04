@@ -14,7 +14,7 @@ import (
 	"C"
 )
 
-// CookieManager (cef_cookie_manager_t from include/capi/cef_cookie_capi.h)
+// CookieManager (cef_cookie_manager_t from .\include/capi/cef_cookie_capi.h)
 // Structure used for managing cookies. The functions of this structure may be
 // called on any thread unless otherwise indicated.
 type CookieManager C.cef_cookie_manager_t

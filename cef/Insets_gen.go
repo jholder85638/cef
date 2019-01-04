@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Insets (cef_insets_t from include/internal/cef_types.h)
+// Insets (cef_insets_t from .\include/internal/cef_types.h)
 // Structure representing insets.
 type Insets struct {
 	// Top (top)

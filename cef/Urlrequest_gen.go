@@ -14,7 +14,7 @@ import (
 	"C"
 )
 
-// Urlrequest (cef_urlrequest_t from include/capi/cef_urlrequest_capi.h)
+// Urlrequest (cef_urlrequest_t from include\capi\cef_urlrequest_capi.h)
 // Structure used to make a URL request. URL requests are not associated with a
 // browser instance so no cef_client_t callbacks will be executed. URL requests
 // can be created on any valid CEF thread in either the browser or render

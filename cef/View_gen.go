@@ -55,7 +55,7 @@ import (
 	"C"
 )
 
-// View (cef_view_t from include/capi/views/cef_view_capi.h)
+// View (cef_view_t from .\include/capi/views/cef_view_capi.h)
 // A View is a rectangle within the views View hierarchy. It is the base
 // structure for all Views. All size and position values are in density
 // independent pixels (DIP) unless otherwise indicated. Methods must be called

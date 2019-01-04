@@ -20,7 +20,7 @@ type WriteHandlerProxy interface {
 	MayBlock(self *WriteHandler) int32
 }
 
-// WriteHandler (cef_write_handler_t from include/capi/cef_stream_capi.h)
+// WriteHandler (cef_write_handler_t from .\include/capi/cef_stream_capi.h)
 // Structure the client can implement to provide a custom stream writer. The
 // functions of this structure may be called on any thread.
 type WriteHandler C.cef_write_handler_t

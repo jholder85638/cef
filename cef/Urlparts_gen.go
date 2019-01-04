@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Urlparts (cef_urlparts_t from include/internal/cef_types.h)
+// Urlparts (cef_urlparts_t from .\include/internal/cef_types.h)
 // URL component parts.
 type Urlparts struct {
 	// Spec (spec)

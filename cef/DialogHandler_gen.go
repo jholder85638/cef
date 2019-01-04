@@ -16,7 +16,7 @@ type DialogHandlerProxy interface {
 	OnFileDialog(self *DialogHandler, browser *Browser, mode FileDialogMode, title, default_file_path string, accept_filters StringList, selected_accept_filter int32, callback *FileDialogCallback) int32
 }
 
-// DialogHandler (cef_dialog_handler_t from include/capi/cef_dialog_handler_capi.h)
+// DialogHandler (cef_dialog_handler_t from .\include/capi/cef_dialog_handler_capi.h)
 // Implement this structure to handle dialog events. The functions of this
 // structure will be called on the browser process UI thread.
 type DialogHandler C.cef_dialog_handler_t

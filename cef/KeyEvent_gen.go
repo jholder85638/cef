@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// KeyEvent (cef_key_event_t from include/internal/cef_types.h)
+// KeyEvent (cef_key_event_t from .\include/internal/cef_types.h)
 // Structure representing keyboard event information.
 type KeyEvent struct {
 	// Type (_type)

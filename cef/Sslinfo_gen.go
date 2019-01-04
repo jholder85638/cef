@@ -9,7 +9,7 @@ import (
 	"C"
 )
 
-// Sslinfo (cef_sslinfo_t from include/capi/cef_ssl_info_capi.h)
+// Sslinfo (cef_sslinfo_t from .\include/capi/cef_ssl_info_capi.h)
 // Structure representing SSL information.
 type Sslinfo C.cef_sslinfo_t
 

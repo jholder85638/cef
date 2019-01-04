@@ -27,7 +27,7 @@ import (
 	"C"
 )
 
-// Request (cef_request_t from include/capi/cef_request_capi.h)
+// Request (cef_request_t from .\include/capi/cef_request_capi.h)
 // Structure used to represent a web request. The functions of this structure
 // may be called on any thread.
 type Request C.cef_request_t

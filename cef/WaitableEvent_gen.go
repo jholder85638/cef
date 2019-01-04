@@ -12,7 +12,7 @@ import (
 	"C"
 )
 
-// WaitableEvent (cef_waitable_event_t from include/capi/cef_waitable_event_capi.h)
+// WaitableEvent (cef_waitable_event_t from include\capi\cef_waitable_event_capi.h)
 // WaitableEvent is a thread synchronization tool that allows one thread to wait
 // for another thread to finish some work. This is equivalent to using a
 // Lock+ConditionVariable to protect a simple boolean value. However, using

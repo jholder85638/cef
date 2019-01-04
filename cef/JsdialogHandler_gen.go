@@ -19,7 +19,7 @@ type JsdialogHandlerProxy interface {
 	OnDialogClosed(self *JsdialogHandler, browser *Browser)
 }
 
-// JsdialogHandler (cef_jsdialog_handler_t from include/capi/cef_jsdialog_handler_capi.h)
+// JsdialogHandler (cef_jsdialog_handler_t from .\include/capi/cef_jsdialog_handler_capi.h)
 // Implement this structure to handle events related to JavaScript dialogs. The
 // functions of this structure will be called on the UI thread.
 type JsdialogHandler C.cef_jsdialog_handler_t

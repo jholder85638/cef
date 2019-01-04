@@ -25,7 +25,7 @@ type RenderProcessHandlerProxy interface {
 	OnProcessMessageReceived(self *RenderProcessHandler, browser *Browser, source_process ProcessID, message *ProcessMessage) int32
 }
 
-// RenderProcessHandler (cef_render_process_handler_t from include/capi/cef_render_process_handler_capi.h)
+// RenderProcessHandler (cef_render_process_handler_t from .\include/capi/cef_render_process_handler_capi.h)
 // Structure used to implement render process callbacks. The functions of this
 // structure will be called on the render process main thread (TID_RENDERER)
 // unless otherwise indicated.

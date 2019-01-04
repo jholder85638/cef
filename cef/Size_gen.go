@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Size (cef_size_t from include/internal/cef_types.h)
+// Size (cef_size_t from .\include/internal/cef_types.h)
 // Structure representing a size.
 type Size struct {
 	// Width (width)

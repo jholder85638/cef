@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// BrowserSettings (cef_browser_settings_t from include/internal/cef_types.h)
+// BrowserSettings (cef_browser_settings_t from .\include/internal/cef_types.h)
 // Browser initialization settings. Specify NULL or 0 to get the recommended
 // default values. The consequences of using custom values may not be well
 // tested. Many of these and other settings can also configured using command-

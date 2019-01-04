@@ -30,7 +30,7 @@ import (
 	"C"
 )
 
-// PrintSettings (cef_print_settings_t from include/capi/cef_print_settings_capi.h)
+// PrintSettings (cef_print_settings_t from .\include/capi/cef_print_settings_capi.h)
 // Structure representing print settings.
 type PrintSettings C.cef_print_settings_t
 

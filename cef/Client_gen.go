@@ -29,7 +29,7 @@ type ClientProxy interface {
 	OnProcessMessageReceived(self *Client, browser *Browser, source_process ProcessID, message *ProcessMessage) int32
 }
 
-// Client (cef_client_t from include/capi/cef_client_capi.h)
+// Client (cef_client_t from include\capi\cef_client_capi.h)
 // Implement this structure to provide handler implementations.
 type Client C.cef_client_t
 

@@ -19,7 +19,7 @@ type LifeSpanHandlerProxy interface {
 	OnBeforeClose(self *LifeSpanHandler, browser *Browser)
 }
 
-// LifeSpanHandler (cef_life_span_handler_t from include/capi/cef_life_span_handler_capi.h)
+// LifeSpanHandler (cef_life_span_handler_t from .\include/capi/cef_life_span_handler_capi.h)
 // Implement this structure to handle events related to browser life span. The
 // functions of this structure will be called on the UI thread unless otherwise
 // indicated.

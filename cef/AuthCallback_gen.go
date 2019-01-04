@@ -17,7 +17,7 @@ type AuthCallbackProxy interface {
 	Cancel(self *AuthCallback)
 }
 
-// AuthCallback (cef_auth_callback_t from include/capi/cef_auth_callback_capi.h)
+// AuthCallback (cef_auth_callback_t from include\capi\cef_auth_callback_capi.h)
 // Callback structure used for asynchronous continuation of authentication
 // requests.
 type AuthCallback C.cef_auth_callback_t

@@ -17,7 +17,7 @@ type PrintDialogCallbackProxy interface {
 	Cancel(self *PrintDialogCallback)
 }
 
-// PrintDialogCallback (cef_print_dialog_callback_t from include/capi/cef_print_handler_capi.h)
+// PrintDialogCallback (cef_print_dialog_callback_t from .\include/capi/cef_print_handler_capi.h)
 // Callback structure for asynchronous continuation of print dialog requests.
 type PrintDialogCallback C.cef_print_dialog_callback_t
 

@@ -23,7 +23,7 @@ type ViewDelegateProxy interface {
 	OnBlur(self *ViewDelegate, view *View)
 }
 
-// ViewDelegate (cef_view_delegate_t from include/capi/views/cef_view_delegate_capi.h)
+// ViewDelegate (cef_view_delegate_t from .\include/capi/views/cef_view_delegate_capi.h)
 // Implement this structure to handle view events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

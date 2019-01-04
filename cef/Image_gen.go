@@ -21,7 +21,7 @@ import (
 	"unsafe"
 )
 
-// Image (cef_image_t from include/capi/cef_image_capi.h)
+// Image (cef_image_t from .\include/capi/cef_image_capi.h)
 // Container for a single image represented at different scale factors. All
 // image representations should be the same size in density independent pixel
 // (DIP) units. For example, if the image at scale factor 1.0 is 100x100 pixels

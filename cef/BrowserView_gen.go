@@ -9,7 +9,7 @@ import (
 	"C"
 )
 
-// BrowserView (cef_browser_view_t from include/capi/views/cef_browser_view_capi.h)
+// BrowserView (cef_browser_view_t from include\capi\views\cef_browser_view_capi.h)
 // A View hosting a cef_browser_t instance. Methods must be called on the
 // browser process UI thread unless otherwise indicated.
 type BrowserView C.cef_browser_view_t

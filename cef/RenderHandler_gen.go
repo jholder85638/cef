@@ -21,7 +21,7 @@ type RenderHandlerProxy interface {
 	OnPopupShow(self *RenderHandler, browser *Browser, show int32)
 	OnPopupSize(self *RenderHandler, browser *Browser, rect *Rect)
 	OnPaint(self *RenderHandler, browser *Browser, type_r PaintElementType, dirtyRectsCount uint64, dirtyRects *Rect, buffer unsafe.Pointer, width, height int32)
-	OnCursorChange(self *RenderHandler, browser *Browser, cursor unsafe.Pointer, type_r CursorType, custom_cursor_info *CursorInfo)
+	OnCursorChange(self *RenderHandler, browser *Browser, cursor HCURSOR, type_r CursorType, custom_cursor_info *CursorInfo)
 	StartDragging(self *RenderHandler, browser *Browser, drag_data *DragData, allowed_ops DragOperationsMask, x, y int32) int32
 	UpdateDragCursor(self *RenderHandler, browser *Browser, operation DragOperationsMask)
 	OnScrollOffsetChanged(self *RenderHandler, browser *Browser, x, y float64)
@@ -29,7 +29,7 @@ type RenderHandlerProxy interface {
 	OnTextSelectionChanged(self *RenderHandler, browser *Browser, selected_text string, selected_range *Range)
 }
 
-// RenderHandler (cef_render_handler_t from include/capi/cef_render_handler_capi.h)
+// RenderHandler (cef_render_handler_t from .\include/capi/cef_render_handler_capi.h)
 // Implement this structure to handle events when window rendering is disabled.
 // The functions of this structure will be called on the UI thread.
 type RenderHandler C.cef_render_handler_t
@@ -197,16 +197,16 @@ func gocef_render_handler_on_paint(self *C.cef_render_handler_t, browser *C.cef_
 // OnCursorChange (on_cursor_change)
 // Called when the browser's cursor has changed. If |type| is CT_CUSTOM then
 // |custom_cursor_info| will be populated with the custom cursor information.
-func (d *RenderHandler) OnCursorChange(browser *Browser, cursor unsafe.Pointer, type_r CursorType, custom_cursor_info *CursorInfo) {
+func (d *RenderHandler) OnCursorChange(browser *Browser, cursor HCURSOR, type_r CursorType, custom_cursor_info *CursorInfo) {
 	lookupRenderHandlerProxy(d.Base()).OnCursorChange(d, browser, cursor, type_r, custom_cursor_info)
 }
 
 //export gocef_render_handler_on_cursor_change
-func gocef_render_handler_on_cursor_change(self *C.cef_render_handler_t, browser *C.cef_browser_t, cursor unsafe.Pointer, type_r C.cef_cursor_type_t, custom_cursor_info *C.cef_cursor_info_t) {
+func gocef_render_handler_on_cursor_change(self *C.cef_render_handler_t, browser *C.cef_browser_t, cursor C.HCURSOR, type_r C.cef_cursor_type_t, custom_cursor_info *C.cef_cursor_info_t) {
 	me__ := (*RenderHandler)(self)
 	proxy__ := lookupRenderHandlerProxy(me__.Base())
 	custom_cursor_info_ := custom_cursor_info.toGo()
-	proxy__.OnCursorChange(me__, (*Browser)(browser), cursor, CursorType(type_r), custom_cursor_info_)
+	proxy__.OnCursorChange(me__, (*Browser)(browser), HCURSOR(cursor), CursorType(type_r), custom_cursor_info_)
 }
 
 // StartDragging (start_dragging)

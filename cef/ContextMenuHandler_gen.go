@@ -19,7 +19,7 @@ type ContextMenuHandlerProxy interface {
 	OnContextMenuDismissed(self *ContextMenuHandler, browser *Browser, frame *Frame)
 }
 
-// ContextMenuHandler (cef_context_menu_handler_t from include/capi/cef_context_menu_handler_capi.h)
+// ContextMenuHandler (cef_context_menu_handler_t from .\include/capi/cef_context_menu_handler_capi.h)
 // Implement this structure to handle context menu events. The functions of this
 // structure will be called on the UI thread.
 type ContextMenuHandler C.cef_context_menu_handler_t

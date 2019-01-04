@@ -8,7 +8,7 @@ import (
 	"C"
 )
 
-// Domvisitor (cef_domvisitor_t from include/capi/cef_dom_capi.h)
+// Domvisitor (cef_domvisitor_t from .\include/capi/cef_dom_capi.h)
 // Structure to implement for visiting the DOM. The functions of this structure
 // will be called on the render process main thread.
 type Domvisitor C.cef_domvisitor_t

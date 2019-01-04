@@ -28,7 +28,7 @@ import (
 	"unsafe"
 )
 
-// CommandLine (cef_command_line_t from include/capi/cef_command_line_capi.h)
+// CommandLine (cef_command_line_t from .\include/capi/cef_command_line_capi.h)
 // Structure used to create and/or parse command line arguments. Arguments with
 // '--', '-' and, on Windows, '/' prefixes are considered switches. Switches
 // will always precede any arguments without switch prefixes. Switches can

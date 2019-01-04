@@ -35,7 +35,7 @@ import (
 	"C"
 )
 
-// ListValue (cef_list_value_t from include/capi/cef_values_capi.h)
+// ListValue (cef_list_value_t from .\include/capi/cef_values_capi.h)
 // Structure representing a list value. Can be used on any process and thread.
 type ListValue C.cef_list_value_t
 

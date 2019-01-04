@@ -20,7 +20,7 @@ type UrlrequestClientProxy interface {
 	GetAuthCredentials(self *UrlrequestClient, isProxy int32, host string, port int32, realm, scheme string, callback *AuthCallback) int32
 }
 
-// UrlrequestClient (cef_urlrequest_client_t from include/capi/cef_urlrequest_capi.h)
+// UrlrequestClient (cef_urlrequest_client_t from include\capi\cef_urlrequest_capi.h)
 // Structure that should be implemented by the cef_urlrequest_t client. The
 // functions of this structure will be called on the same thread that created
 // the request unless otherwise documented.

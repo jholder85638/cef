@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Cookie (cef_cookie_t from include/internal/cef_types.h)
+// Cookie (cef_cookie_t from .\include/internal/cef_types.h)
 // Cookie information.
 type Cookie struct {
 	// Name (name)

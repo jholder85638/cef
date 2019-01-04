@@ -17,7 +17,7 @@ import (
 	"C"
 )
 
-// X509certificate (cef_x509certificate_t from include/capi/cef_x509_certificate_capi.h)
+// X509certificate (cef_x509certificate_t from .\include/capi/cef_x509_certificate_capi.h)
 // Structure representing a X.509 certificate.
 type X509certificate C.cef_x509certificate_t
 

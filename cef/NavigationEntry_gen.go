@@ -17,7 +17,7 @@ import (
 	"C"
 )
 
-// NavigationEntry (cef_navigation_entry_t from include/capi/cef_navigation_entry_capi.h)
+// NavigationEntry (cef_navigation_entry_t from .\include/capi/cef_navigation_entry_capi.h)
 // Structure used to represent an entry in navigation history.
 type NavigationEntry C.cef_navigation_entry_t
 

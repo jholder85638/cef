@@ -16,7 +16,7 @@ type V8arrayBufferReleaseCallbackProxy interface {
 	ReleaseBuffer(self *V8arrayBufferReleaseCallback, buffer unsafe.Pointer)
 }
 
-// V8arrayBufferReleaseCallback (cef_v8array_buffer_release_callback_t from include/capi/cef_v8_capi.h)
+// V8arrayBufferReleaseCallback (cef_v8array_buffer_release_callback_t from .\include/capi/cef_v8_capi.h)
 // Callback structure that is passed to cef_v8value_t::CreateArrayBuffer.
 type V8arrayBufferReleaseCallback C.cef_v8array_buffer_release_callback_t
 

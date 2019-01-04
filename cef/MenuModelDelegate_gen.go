@@ -22,7 +22,7 @@ type MenuModelDelegateProxy interface {
 	FormatLabel(self *MenuModelDelegate, menu_model *MenuModel, label *string) int32
 }
 
-// MenuModelDelegate (cef_menu_model_delegate_t from include/capi/cef_menu_model_delegate_capi.h)
+// MenuModelDelegate (cef_menu_model_delegate_t from .\include/capi/cef_menu_model_delegate_capi.h)
 // Implement this structure to handle menu model events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

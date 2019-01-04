@@ -12,7 +12,7 @@ import (
 	"C"
 )
 
-// Sslstatus (cef_sslstatus_t from include/capi/cef_ssl_status_capi.h)
+// Sslstatus (cef_sslstatus_t from .\include/capi/cef_ssl_status_capi.h)
 // Structure representing the SSL information for a navigation entry.
 type Sslstatus C.cef_sslstatus_t
 

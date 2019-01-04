@@ -16,7 +16,7 @@ type WebPluginInfoVisitorProxy interface {
 	Visit(self *WebPluginInfoVisitor, info *WebPluginInfo, count, total int32) int32
 }
 
-// WebPluginInfoVisitor (cef_web_plugin_info_visitor_t from include/capi/cef_web_plugin_capi.h)
+// WebPluginInfoVisitor (cef_web_plugin_info_visitor_t from .\include/capi/cef_web_plugin_capi.h)
 // Structure to implement for visiting web plugin information. The functions of
 // this structure will be called on the browser process UI thread.
 type WebPluginInfoVisitor C.cef_web_plugin_info_visitor_t

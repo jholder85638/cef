@@ -38,7 +38,7 @@ import (
 	"C"
 )
 
-// Textfield (cef_textfield_t from include/capi/views/cef_textfield_capi.h)
+// Textfield (cef_textfield_t from include\capi\views\cef_textfield_capi.h)
 // A Textfield supports editing of text. This control is custom rendered with no
 // platform-specific code. Methods must be called on the browser process UI
 // thread unless otherwise indicated.

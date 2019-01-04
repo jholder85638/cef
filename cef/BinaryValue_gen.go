@@ -15,7 +15,7 @@ import (
 	"unsafe"
 )
 
-// BinaryValue (cef_binary_value_t from include/capi/cef_values_capi.h)
+// BinaryValue (cef_binary_value_t from .\include/capi/cef_values_capi.h)
 // Structure representing a binary value. Can be used on any process and thread.
 type BinaryValue C.cef_binary_value_t
 

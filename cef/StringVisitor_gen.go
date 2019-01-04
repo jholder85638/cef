@@ -16,7 +16,7 @@ type StringVisitorProxy interface {
 	Visit(self *StringVisitor, string_r string)
 }
 
-// StringVisitor (cef_string_visitor_t from include/capi/cef_string_visitor_capi.h)
+// StringVisitor (cef_string_visitor_t from .\include/capi/cef_string_visitor_capi.h)
 // Implement this structure to receive string values asynchronously.
 type StringVisitor C.cef_string_visitor_t
 

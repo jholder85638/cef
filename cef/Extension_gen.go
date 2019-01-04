@@ -15,7 +15,7 @@ import (
 	"C"
 )
 
-// Extension (cef_extension_t from include/capi/cef_extension_capi.h)
+// Extension (cef_extension_t from .\include/capi/cef_extension_capi.h)
 // Object representing an extension. Methods may be called on any thread unless
 // otherwise indicated.
 type Extension C.cef_extension_t

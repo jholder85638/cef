@@ -16,7 +16,7 @@ type SelectClientCertificateCallbackProxy interface {
 	Select(self *SelectClientCertificateCallback, cert *X509certificate)
 }
 
-// SelectClientCertificateCallback (cef_select_client_certificate_callback_t from include/capi/cef_request_handler_capi.h)
+// SelectClientCertificateCallback (cef_select_client_certificate_callback_t from .\include/capi/cef_request_handler_capi.h)
 // Callback structure used to select a client certificate for authentication.
 type SelectClientCertificateCallback C.cef_select_client_certificate_callback_t
 

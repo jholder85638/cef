@@ -63,7 +63,7 @@ import (
 	"C"
 )
 
-// MenuModel (cef_menu_model_t from include/capi/cef_menu_model_capi.h)
+// MenuModel (cef_menu_model_t from .\include/capi/cef_menu_model_capi.h)
 // Supports creation and modification of menus. See cef_menu_id_t for the
 // command ids that have default implementations. All user-defined command ids
 // should be between MENU_ID_USER_FIRST and MENU_ID_USER_LAST. The functions of

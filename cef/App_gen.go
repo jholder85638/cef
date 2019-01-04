@@ -20,7 +20,7 @@ type AppProxy interface {
 	GetRenderProcessHandler(self *App) *RenderProcessHandler
 }
 
-// App (cef_app_t from include/capi/cef_app_capi.h)
+// App (cef_app_t from include\capi\cef_app_capi.h)
 // Implement this structure to provide handler implementations. Methods will be
 // called by the process and/or thread indicated.
 type App C.cef_app_t

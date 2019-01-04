@@ -16,7 +16,7 @@ type RegisterCdmCallbackProxy interface {
 	OnCdmRegistrationComplete(self *RegisterCdmCallback, result CdmRegistrationError, error_message string)
 }
 
-// RegisterCdmCallback (cef_register_cdm_callback_t from include/capi/cef_web_plugin_capi.h)
+// RegisterCdmCallback (cef_register_cdm_callback_t from .\include/capi/cef_web_plugin_capi.h)
 // Implement this structure to receive notification when CDM registration is
 // complete. The functions of this structure will be called on the browser
 // process UI thread.

@@ -2,7 +2,7 @@
 
 package cef
 
-// AlphaType (cef_alpha_type_t from include/internal/cef_types.h)
+// AlphaType (cef_alpha_type_t from .\include/internal/cef_types.h)
 // Describes how to interpret the alpha component of a pixel.
 type AlphaType int
 
@@ -16,7 +16,7 @@ const (
 	AlphaTypePostmultiplied AlphaType = 2 // CEF_ALPHA_TYPE_POSTMULTIPLIED
 )
 
-// ButtonState (cef_button_state_t from include/internal/cef_types.h)
+// ButtonState (cef_button_state_t from .\include/internal/cef_types.h)
 // Specifies the button display state.
 type ButtonState int
 
@@ -32,7 +32,7 @@ const (
 	ButtonStateDisabled ButtonState = 3 // CEF_BUTTON_STATE_DISABLED
 )
 
-// CdmRegistrationError (cef_cdm_registration_error_t from include/internal/cef_types.h)
+// CdmRegistrationError (cef_cdm_registration_error_t from .\include/internal/cef_types.h)
 // Error codes for CDM registration. See cef_web_plugin.h for details.
 type CdmRegistrationError int
 
@@ -48,7 +48,7 @@ const (
 	CdmRegistrationErrorNotSupported CdmRegistrationError = 3 // CEF_CDM_REGISTRATION_ERROR_NOT_SUPPORTED
 )
 
-// CertStatus (cef_cert_status_t from include/internal/cef_types.h)
+// CertStatus (cef_cert_status_t from .\include/internal/cef_types.h)
 // Supported certificate status code values. See net\cert\cert_status_flags.h
 // for more information. CERT_STATUS_NONE is new in CEF because we use an
 // enum while cert_status_flags.h uses a typedef and static const variables.
@@ -81,7 +81,7 @@ const (
 	CertStatusCTComplianceFailed   CertStatus = 1 << 20 // CERT_STATUS_CT_COMPLIANCE_FAILED
 )
 
-// ColorModel (cef_color_model_t from include/internal/cef_types.h)
+// ColorModel (cef_color_model_t from .\include/internal/cef_types.h)
 // Print job color mode values.
 type ColorModel int
 
@@ -131,7 +131,7 @@ const (
 	ColorModelProcesscolormodelRgb ColorModel = 20 // COLOR_MODEL_PROCESSCOLORMODEL_RGB
 )
 
-// ColorType (cef_color_type_t from include/internal/cef_types.h)
+// ColorType (cef_color_type_t from .\include/internal/cef_types.h)
 // Describes how to interpret the components of a pixel.
 type ColorType int
 
@@ -143,7 +143,7 @@ const (
 	ColorTypeBgra8888 ColorType = 1 // CEF_COLOR_TYPE_BGRA_8888
 )
 
-// COMInitMode (cef_com_init_mode_t from include/internal/cef_types.h)
+// COMInitMode (cef_com_init_mode_t from .\include/internal/cef_types.h)
 // Windows COM initialization mode. Specifies how COM will be initialized for a
 // new thread.
 type COMInitMode int
@@ -161,7 +161,7 @@ const (
 	COMInitModeMta COMInitMode = 2 // COM_INIT_MODE_MTA
 )
 
-// ContextMenuEditStateFlags (cef_context_menu_edit_state_flags_t from include/internal/cef_types.h)
+// ContextMenuEditStateFlags (cef_context_menu_edit_state_flags_t from .\include/internal/cef_types.h)
 // Supported context menu edit state bit flags.
 type ContextMenuEditStateFlags int
 
@@ -178,7 +178,7 @@ const (
 	CmEditflagCanTranslate ContextMenuEditStateFlags = 1 << 7 // CM_EDITFLAG_CAN_TRANSLATE
 )
 
-// ContextMenuMediaStateFlags (cef_context_menu_media_state_flags_t from include/internal/cef_types.h)
+// ContextMenuMediaStateFlags (cef_context_menu_media_state_flags_t from .\include/internal/cef_types.h)
 // Supported context menu media state bit flags.
 type ContextMenuMediaStateFlags int
 
@@ -197,7 +197,7 @@ const (
 	CmMediaflagCanRotate          ContextMenuMediaStateFlags = 1 << 9 // CM_MEDIAFLAG_CAN_ROTATE
 )
 
-// ContextMenuMediaType (cef_context_menu_media_type_t from include/internal/cef_types.h)
+// ContextMenuMediaType (cef_context_menu_media_type_t from .\include/internal/cef_types.h)
 // Supported context menu media types.
 type ContextMenuMediaType int
 
@@ -217,7 +217,7 @@ const (
 	CmMediatypePlugin ContextMenuMediaType = 5 // CM_MEDIATYPE_PLUGIN
 )
 
-// ContextMenuTypeFlags (cef_context_menu_type_flags_t from include/internal/cef_types.h)
+// ContextMenuTypeFlags (cef_context_menu_type_flags_t from .\include/internal/cef_types.h)
 // Supported context menu type flags.
 type ContextMenuTypeFlags int
 
@@ -239,7 +239,7 @@ const (
 	CmTypeflagEditable ContextMenuTypeFlags = 1 << 5 // CM_TYPEFLAG_EDITABLE
 )
 
-// CrossAxisAlignment (cef_cross_axis_alignment_t from include/internal/cef_types.h)
+// CrossAxisAlignment (cef_cross_axis_alignment_t from .\include/internal/cef_types.h)
 // Specifies where along the cross axis the CefBoxLayout child views should be
 // laid out.
 type CrossAxisAlignment int
@@ -260,7 +260,7 @@ const (
 	CrossAxisAlignmentEnd CrossAxisAlignment = 3 // CEF_CROSS_AXIS_ALIGNMENT_END
 )
 
-// CursorType (cef_cursor_type_t from include/internal/cef_types.h)
+// CursorType (cef_cursor_type_t from .\include/internal/cef_types.h)
 // Cursor type values.
 type CursorType int
 
@@ -312,7 +312,7 @@ const (
 	CTCustom                   CursorType = 43 // CT_CUSTOM
 )
 
-// DOMDocumentType (cef_dom_document_type_t from include/internal/cef_types.h)
+// DOMDocumentType (cef_dom_document_type_t from .\include/internal/cef_types.h)
 // DOM document types.
 type DOMDocumentType int
 
@@ -324,7 +324,7 @@ const (
 	DOMDocumentTypePlugin  DOMDocumentType = 3 // DOM_DOCUMENT_TYPE_PLUGIN
 )
 
-// DOMEventCategory (cef_dom_event_category_t from include/internal/cef_types.h)
+// DOMEventCategory (cef_dom_event_category_t from .\include/internal/cef_types.h)
 // DOM event category flags.
 type DOMEventCategory int
 
@@ -349,7 +349,7 @@ const (
 	DOMEventCategoryXmlhttprequestProgress DOMEventCategory = 0x8000 // DOM_EVENT_CATEGORY_XMLHTTPREQUEST_PROGRESS
 )
 
-// DOMEventPhase (cef_dom_event_phase_t from include/internal/cef_types.h)
+// DOMEventPhase (cef_dom_event_phase_t from .\include/internal/cef_types.h)
 // DOM event processing phases.
 type DOMEventPhase int
 
@@ -361,7 +361,7 @@ const (
 	DOMEventPhaseBubbling  DOMEventPhase = 3 // DOM_EVENT_PHASE_BUBBLING
 )
 
-// DOMNodeType (cef_dom_node_type_t from include/internal/cef_types.h)
+// DOMNodeType (cef_dom_node_type_t from .\include/internal/cef_types.h)
 // DOM node types.
 type DOMNodeType int
 
@@ -379,7 +379,7 @@ const (
 	DOMNodeTypeDocumentFragment       DOMNodeType = 9 // DOM_NODE_TYPE_DOCUMENT_FRAGMENT
 )
 
-// DragOperationsMask (cef_drag_operations_mask_t from include/internal/cef_types.h)
+// DragOperationsMask (cef_drag_operations_mask_t from .\include/internal/cef_types.h)
 // "Verb" of a drag-and-drop operation as negotiated between the source and
 // destination. These constants match their equivalents in WebCore's
 // DragActions.h and should not be renumbered.
@@ -397,7 +397,7 @@ const (
 	DragOperationEvery   DragOperationsMask = 33 // DRAG_OPERATION_EVERY
 )
 
-// DuplexMode (cef_duplex_mode_t from include/internal/cef_types.h)
+// DuplexMode (cef_duplex_mode_t from .\include/internal/cef_types.h)
 // Print job duplex mode values.
 type DuplexMode int
 
@@ -409,7 +409,7 @@ const (
 	DuplexModeShortEdge DuplexMode = 2  // DUPLEX_MODE_SHORT_EDGE
 )
 
-// Errorcode (cef_errorcode_t from include/internal/cef_types.h)
+// Errorcode (cef_errorcode_t from .\include/internal/cef_types.h)
 // Supported error code values. See net\base\net_error_list.h for complete
 // descriptions of the error codes.
 type Errorcode int
@@ -474,7 +474,7 @@ const (
 	ErrInsecureResponse            Errorcode = -501                   // ERR_INSECURE_RESPONSE
 )
 
-// EventFlags (cef_event_flags_t from include/internal/cef_types.h)
+// EventFlags (cef_event_flags_t from .\include/internal/cef_types.h)
 // Supported event bit flags.
 type EventFlags int
 
@@ -496,7 +496,7 @@ const (
 	EventflagIsRight     EventFlags = 1 << 11 // EVENTFLAG_IS_RIGHT
 )
 
-// FileDialogMode (cef_file_dialog_mode_t from include/internal/cef_types.h)
+// FileDialogMode (cef_file_dialog_mode_t from .\include/internal/cef_types.h)
 // Supported file dialog modes.
 type FileDialogMode int
 
@@ -519,7 +519,7 @@ const (
 	FileDialogHidereadonlyFlag FileDialogMode = 0x02000000 // FILE_DIALOG_HIDEREADONLY_FLAG
 )
 
-// FocusSource (cef_focus_source_t from include/internal/cef_types.h)
+// FocusSource (cef_focus_source_t from .\include/internal/cef_types.h)
 // Focus sources.
 type FocusSource int
 
@@ -531,7 +531,7 @@ const (
 	FocusSourceSystem FocusSource = 1 // FOCUS_SOURCE_SYSTEM
 )
 
-// HorizontalAlignment (cef_horizontal_alignment_t from include/internal/cef_types.h)
+// HorizontalAlignment (cef_horizontal_alignment_t from .\include/internal/cef_types.h)
 // Specifies the horizontal text alignment mode.
 type HorizontalAlignment int
 
@@ -545,7 +545,7 @@ const (
 	HorizontalAlignmentRight HorizontalAlignment = 2 // CEF_HORIZONTAL_ALIGNMENT_RIGHT
 )
 
-// JsdialogType (cef_jsdialog_type_t from include/internal/cef_types.h)
+// JsdialogType (cef_jsdialog_type_t from .\include/internal/cef_types.h)
 // Supported JavaScript dialog types.
 type JsdialogType int
 
@@ -556,7 +556,7 @@ const (
 	JsdialogtypePrompt  JsdialogType = 2 // JSDIALOGTYPE_PROMPT
 )
 
-// JSONParserError (cef_json_parser_error_t from include/internal/cef_types.h)
+// JSONParserError (cef_json_parser_error_t from .\include/internal/cef_types.h)
 // Error codes that can be returned from CefParseJSONAndReturnError.
 type JSONParserError int
 
@@ -574,7 +574,7 @@ const (
 	JSONParseErrorCount         JSONParserError = 9 // JSON_PARSE_ERROR_COUNT
 )
 
-// JSONParserOptions (cef_json_parser_options_t from include/internal/cef_types.h)
+// JSONParserOptions (cef_json_parser_options_t from .\include/internal/cef_types.h)
 // Options that can be passed to CefParseJSON.
 type JSONParserOptions int
 
@@ -587,7 +587,7 @@ const (
 	JSONParserAllowTrailingCommas JSONParserOptions = 1 << 0 // JSON_PARSER_ALLOW_TRAILING_COMMAS
 )
 
-// JSONWriterOptions (cef_json_writer_options_t from include/internal/cef_types.h)
+// JSONWriterOptions (cef_json_writer_options_t from .\include/internal/cef_types.h)
 // Options that can be passed to CefWriteJSON.
 type JSONWriterOptions int
 
@@ -610,7 +610,7 @@ const (
 	JSONWriterPrettyPrint JSONWriterOptions = 1 << 2 // JSON_WRITER_PRETTY_PRINT
 )
 
-// KeyEventType (cef_key_event_type_t from include/internal/cef_types.h)
+// KeyEventType (cef_key_event_type_t from .\include/internal/cef_types.h)
 // Key event types.
 type KeyEventType int
 
@@ -626,7 +626,7 @@ const (
 	KeyeventChar KeyEventType = 3 // KEYEVENT_CHAR
 )
 
-// LogSeverity (cef_log_severity_t from include/internal/cef_types.h)
+// LogSeverity (cef_log_severity_t from .\include/internal/cef_types.h)
 // Log severity levels.
 type LogSeverity int
 
@@ -648,7 +648,7 @@ const (
 	LogseverityDisable LogSeverity = 99 // LOGSEVERITY_DISABLE
 )
 
-// MainAxisAlignment (cef_main_axis_alignment_t from include/internal/cef_types.h)
+// MainAxisAlignment (cef_main_axis_alignment_t from .\include/internal/cef_types.h)
 // Specifies where along the main axis the CefBoxLayout child views should be
 // laid out.
 type MainAxisAlignment int
@@ -666,7 +666,7 @@ const (
 	MainAxisAlignmentEnd MainAxisAlignment = 2 // CEF_MAIN_AXIS_ALIGNMENT_END
 )
 
-// MenuAnchorPosition (cef_menu_anchor_position_t from include/internal/cef_types.h)
+// MenuAnchorPosition (cef_menu_anchor_position_t from .\include/internal/cef_types.h)
 // Specifies how a menu will be anchored for non-RTL languages. The opposite
 // position will be used for RTL languages.
 type MenuAnchorPosition int
@@ -684,7 +684,7 @@ const (
 	MenuAnchorBottomcenter MenuAnchorPosition = 2 // CEF_MENU_ANCHOR_BOTTOMCENTER
 )
 
-// MenuColorType (cef_menu_color_type_t from include/internal/cef_types.h)
+// MenuColorType (cef_menu_color_type_t from .\include/internal/cef_types.h)
 // Supported color types for menu items.
 type MenuColorType int
 
@@ -706,7 +706,7 @@ const (
 	MenuColorCount MenuColorType = 6 // CEF_MENU_COLOR_COUNT
 )
 
-// MenuID (cef_menu_id_t from include/internal/cef_types.h)
+// MenuID (cef_menu_id_t from .\include/internal/cef_types.h)
 // Supported menu IDs. Non-English translations can be provided for the
 // IDS_MENU_* strings in CefResourceBundleHandler::GetLocalizedString().
 type MenuID int
@@ -751,7 +751,7 @@ const (
 	MenuIDUserLast  MenuID = 28500 // MENU_ID_USER_LAST
 )
 
-// MenuItemType (cef_menu_item_type_t from include/internal/cef_types.h)
+// MenuItemType (cef_menu_item_type_t from .\include/internal/cef_types.h)
 // Supported menu item types.
 type MenuItemType int
 
@@ -771,7 +771,7 @@ const (
 	MenuitemtypeSubmenu MenuItemType = 5 // MENUITEMTYPE_SUBMENU
 )
 
-// MessageLoopType (cef_message_loop_type_t from include/internal/cef_types.h)
+// MessageLoopType (cef_message_loop_type_t from .\include/internal/cef_types.h)
 // Message loop types. Indicates the set of asynchronous events that a message
 // loop can process.
 type MessageLoopType int
@@ -789,7 +789,7 @@ const (
 	MlTypeIO MessageLoopType = 2 // ML_TYPE_IO
 )
 
-// MouseButtonType (cef_mouse_button_type_t from include/internal/cef_types.h)
+// MouseButtonType (cef_mouse_button_type_t from .\include/internal/cef_types.h)
 // Mouse button types.
 type MouseButtonType int
 
@@ -800,7 +800,7 @@ const (
 	MbtRight  MouseButtonType = 2 // MBT_RIGHT
 )
 
-// NavigationType (cef_navigation_type_t from include/internal/cef_types.h)
+// NavigationType (cef_navigation_type_t from .\include/internal/cef_types.h)
 // Navigation types.
 type NavigationType int
 
@@ -814,7 +814,7 @@ const (
 	NavigationOther           NavigationType = 5 // NAVIGATION_OTHER
 )
 
-// PaintElementType (cef_paint_element_type_t from include/internal/cef_types.h)
+// PaintElementType (cef_paint_element_type_t from .\include/internal/cef_types.h)
 // Paint element types.
 type PaintElementType int
 
@@ -824,7 +824,7 @@ const (
 	PetPopup PaintElementType = 1 // PET_POPUP
 )
 
-// PathKey (cef_path_key_t from include/internal/cef_types.h)
+// PathKey (cef_path_key_t from .\include/internal/cef_types.h)
 // Path key values.
 type PathKey int
 
@@ -850,7 +850,7 @@ const (
 	PkDirResources PathKey = 8 // PK_DIR_RESOURCES
 )
 
-// PDFPrintMarginType (cef_pdf_print_margin_type_t from include/internal/cef_types.h)
+// PDFPrintMarginType (cef_pdf_print_margin_type_t from .\include/internal/cef_types.h)
 // Margin type for PDF printing.
 type PDFPrintMarginType int
 
@@ -866,7 +866,7 @@ const (
 	PDFPrintMarginCustom PDFPrintMarginType = 3 // PDF_PRINT_MARGIN_CUSTOM
 )
 
-// PluginPolicy (cef_plugin_policy_t from include/internal/cef_types.h)
+// PluginPolicy (cef_plugin_policy_t from .\include/internal/cef_types.h)
 // Plugin policies supported by CefRequestContextHandler::OnBeforePluginLoad.
 type PluginPolicy int
 
@@ -882,7 +882,7 @@ const (
 	PluginPolicyDisable PluginPolicy = 3 // PLUGIN_POLICY_DISABLE
 )
 
-// PostdataelementType (cef_postdataelement_type_t from include/internal/cef_types.h)
+// PostdataelementType (cef_postdataelement_type_t from .\include/internal/cef_types.h)
 // Post data elements may represent either bytes or files.
 type PostdataelementType int
 
@@ -893,7 +893,7 @@ const (
 	PdeTypeFile  PostdataelementType = 2 // PDE_TYPE_FILE
 )
 
-// ProcessID (cef_process_id_t from include/internal/cef_types.h)
+// ProcessID (cef_process_id_t from .\include/internal/cef_types.h)
 // Existing process IDs.
 type ProcessID int
 
@@ -905,7 +905,7 @@ const (
 	PidRenderer ProcessID = 1 // PID_RENDERER
 )
 
-// ReferrerPolicy (cef_referrer_policy_t from include/internal/cef_types.h)
+// ReferrerPolicy (cef_referrer_policy_t from .\include/internal/cef_types.h)
 // Policy for how the Referrer HTTP header value will be sent during navigation.
 // If the `--no-referrers` command-line flag is specified then the policy value
 // will be ignored and the Referrer value will never be sent.
@@ -930,7 +930,7 @@ const (
 	ReferrerPolicyLastValue                                        ReferrerPolicy = 9 // REFERRER_POLICY_LAST_VALUE
 )
 
-// ResourceType (cef_resource_type_t from include/internal/cef_types.h)
+// ResourceType (cef_resource_type_t from .\include/internal/cef_types.h)
 // Resource type for a request.
 type ResourceType int
 
@@ -974,7 +974,7 @@ const (
 	RtPluginResource ResourceType = 17 // RT_PLUGIN_RESOURCE
 )
 
-// ResponseFilterStatus (cef_response_filter_status_t from include/internal/cef_types.h)
+// ResponseFilterStatus (cef_response_filter_status_t from .\include/internal/cef_types.h)
 // Return values for CefResponseFilter::Filter().
 type ResponseFilterStatus int
 
@@ -988,7 +988,7 @@ const (
 	ResponseFilterError ResponseFilterStatus = 2 // RESPONSE_FILTER_ERROR
 )
 
-// ReturnValue (cef_return_value_t from include/internal/cef_types.h)
+// ReturnValue (cef_return_value_t from .\include/internal/cef_types.h)
 // Return value types.
 type ReturnValue int
 
@@ -1002,7 +1002,7 @@ const (
 	RvContinueAsync ReturnValue = 2 // RV_CONTINUE_ASYNC
 )
 
-// ScaleFactor (cef_scale_factor_t from include/internal/cef_types.h)
+// ScaleFactor (cef_scale_factor_t from .\include/internal/cef_types.h)
 // Supported UI scale factors for the platform. SCALE_FACTOR_NONE is used for
 // density independent resources such as string, html/js files or an image that
 // can be used for any scale factors (such as wallpapers).
@@ -1022,7 +1022,7 @@ const (
 	ScaleFactor300p ScaleFactor = 9 // SCALE_FACTOR_300P
 )
 
-// SSLContentStatus (cef_ssl_content_status_t from include/internal/cef_types.h)
+// SSLContentStatus (cef_ssl_content_status_t from .\include/internal/cef_types.h)
 // Supported SSL content status flags. See content/public/common/ssl_status.h
 // for more information.
 type SSLContentStatus int
@@ -1034,7 +1034,7 @@ const (
 	SSLContentRanInsecureContent       SSLContentStatus = 1 << 1 // SSL_CONTENT_RAN_INSECURE_CONTENT
 )
 
-// SSLVersion (cef_ssl_version_t from include/internal/cef_types.h)
+// SSLVersion (cef_ssl_version_t from .\include/internal/cef_types.h)
 // Supported SSL version values. See net/ssl/ssl_connection_status_flags.h
 // for more information.
 type SSLVersion int
@@ -1051,7 +1051,7 @@ const (
 	SSLConnectionVersionQuic SSLVersion = 7 // SSL_CONNECTION_VERSION_QUIC
 )
 
-// State (cef_state_t from include/internal/cef_types.h)
+// State (cef_state_t from .\include/internal/cef_types.h)
 // Represents the state of a setting.
 type State int
 
@@ -1065,7 +1065,7 @@ const (
 	StateDisabled State = 2 // STATE_DISABLED
 )
 
-// StorageType (cef_storage_type_t from include/internal/cef_types.h)
+// StorageType (cef_storage_type_t from .\include/internal/cef_types.h)
 // Storage types.
 type StorageType int
 
@@ -1075,7 +1075,7 @@ const (
 	STSessionstorage StorageType = 1 // ST_SESSIONSTORAGE
 )
 
-// TerminationStatus (cef_termination_status_t from include/internal/cef_types.h)
+// TerminationStatus (cef_termination_status_t from .\include/internal/cef_types.h)
 // Process termination status values.
 type TerminationStatus int
 
@@ -1091,7 +1091,7 @@ const (
 	TSProcessOom TerminationStatus = 3 // TS_PROCESS_OOM
 )
 
-// TextStyle (cef_text_style_t from include/internal/cef_types.h)
+// TextStyle (cef_text_style_t from .\include/internal/cef_types.h)
 // Text style types. Should be kepy in sync with gfx::TextStyle.
 type TextStyle int
 
@@ -1109,7 +1109,7 @@ const (
 	TextStyleUnderline TextStyle = 4 // CEF_TEXT_STYLE_UNDERLINE
 )
 
-// ThreadID (cef_thread_id_t from include/internal/cef_types.h)
+// ThreadID (cef_thread_id_t from .\include/internal/cef_types.h)
 // Existing thread IDs.
 type ThreadID int
 
@@ -1127,7 +1127,7 @@ const (
 	TIDRenderer         ThreadID = (((((TIDFileBackground) + 1) + 1) + 1) + 1) + 1 // TID_RENDERER
 )
 
-// ThreadPriority (cef_thread_priority_t from include/internal/cef_types.h)
+// ThreadPriority (cef_thread_priority_t from .\include/internal/cef_types.h)
 // Thread priority values listed in increasing order of importance.
 type ThreadPriority int
 
@@ -1143,7 +1143,7 @@ const (
 	TPRealtimeAudio ThreadPriority = 3 // TP_REALTIME_AUDIO
 )
 
-// TransitionType (cef_transition_type_t from include/internal/cef_types.h)
+// TransitionType (cef_transition_type_t from .\include/internal/cef_types.h)
 // Transition type for a request. Made up of one source value and 0 or more
 // qualifiers.
 type TransitionType uint
@@ -1198,7 +1198,7 @@ const (
 	TTQualifierMask TransitionType = 0xFFFFFF00 // TT_QUALIFIER_MASK
 )
 
-// URIUnescapeRule (cef_uri_unescape_rule_t from include/internal/cef_types.h)
+// URIUnescapeRule (cef_uri_unescape_rule_t from .\include/internal/cef_types.h)
 // URI unescape rules passed to CefURIDecode().
 type URIUnescapeRule int
 
@@ -1242,7 +1242,7 @@ const (
 	UuReplacePlusWithSpace URIUnescapeRule = 1 << 5 // UU_REPLACE_PLUS_WITH_SPACE
 )
 
-// UrlrequestFlags (cef_urlrequest_flags_t from include/internal/cef_types.h)
+// UrlrequestFlags (cef_urlrequest_flags_t from .\include/internal/cef_types.h)
 // Flags used to customize the behavior of CefURLRequest.
 type UrlrequestFlags int
 
@@ -1276,7 +1276,7 @@ const (
 	UrFlagStopOnRedirect UrlrequestFlags = 1 << 6 // UR_FLAG_STOP_ON_REDIRECT
 )
 
-// UrlrequestStatus (cef_urlrequest_status_t from include/internal/cef_types.h)
+// UrlrequestStatus (cef_urlrequest_status_t from .\include/internal/cef_types.h)
 // Flags that represent CefURLRequest status.
 type UrlrequestStatus int
 
@@ -1294,7 +1294,7 @@ const (
 	UrFailed UrlrequestStatus = 4 // UR_FAILED
 )
 
-// V8Accesscontrol (cef_v8_accesscontrol_t from include/internal/cef_types.h)
+// V8Accesscontrol (cef_v8_accesscontrol_t from .\include/internal/cef_types.h)
 // V8 access control values.
 type V8Accesscontrol int
 
@@ -1306,7 +1306,7 @@ const (
 	V8AccessControlProhibitsOverwriting V8Accesscontrol = 1 << 2 // V8_ACCESS_CONTROL_PROHIBITS_OVERWRITING
 )
 
-// V8Propertyattribute (cef_v8_propertyattribute_t from include/internal/cef_types.h)
+// V8Propertyattribute (cef_v8_propertyattribute_t from .\include/internal/cef_types.h)
 // V8 property attribute values.
 type V8Propertyattribute int
 
@@ -1319,7 +1319,7 @@ const (
 	V8PropertyAttributeDontdelete V8Propertyattribute = 1 << 2 // V8_PROPERTY_ATTRIBUTE_DONTDELETE
 )
 
-// ValueType (cef_value_type_t from include/internal/cef_types.h)
+// ValueType (cef_value_type_t from .\include/internal/cef_types.h)
 // Supported value types.
 type ValueType int
 
@@ -1336,7 +1336,7 @@ const (
 	VtypeList       ValueType = 8 // VTYPE_LIST
 )
 
-// WindowOpenDisposition (cef_window_open_disposition_t from include/internal/cef_types.h)
+// WindowOpenDisposition (cef_window_open_disposition_t from .\include/internal/cef_types.h)
 // The manner in which a link click should be opened. These constants match
 // their equivalents in Chromium's window_open_disposition.h and should not be
 // renumbered.
@@ -1386,7 +1386,7 @@ const (
 	WodIgnoreAction WindowOpenDisposition = 9 // WOD_IGNORE_ACTION
 )
 
-// XMLEncodingType (cef_xml_encoding_type_t from include/internal/cef_types.h)
+// XMLEncodingType (cef_xml_encoding_type_t from .\include/internal/cef_types.h)
 // Supported XML encoding types. The parser supports ASCII, ISO-8859-1, and
 // UTF16 (LE and BE) by default. All other types must be translated to UTF8
 // before being passed to the parser. If a BOM is detected and the correct
@@ -1402,7 +1402,7 @@ const (
 	XMLEncodingASCII   XMLEncodingType = 4 // XML_ENCODING_ASCII
 )
 
-// XMLNodeType (cef_xml_node_type_t from include/internal/cef_types.h)
+// XMLNodeType (cef_xml_node_type_t from .\include/internal/cef_types.h)
 // XML node types.
 type XMLNodeType int
 

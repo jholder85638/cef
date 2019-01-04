@@ -8,7 +8,7 @@ import (
 	"C"
 )
 
-// SchemeHandlerFactory (cef_scheme_handler_factory_t from include/capi/cef_scheme_capi.h)
+// SchemeHandlerFactory (cef_scheme_handler_factory_t from .\include/capi/cef_scheme_capi.h)
 // Structure that creates cef_resource_handler_t instances for handling scheme
 // requests. The functions of this structure will always be called on the IO
 // thread.

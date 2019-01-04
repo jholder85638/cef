@@ -19,7 +19,7 @@ type BrowserViewDelegateProxy interface {
 	OnPopupBrowserViewCreated(self *BrowserViewDelegate, browser_view, popup_browser_view *BrowserView, is_devtools int32) int32
 }
 
-// BrowserViewDelegate (cef_browser_view_delegate_t from include/capi/views/cef_browser_view_delegate_capi.h)
+// BrowserViewDelegate (cef_browser_view_delegate_t from .\include/capi/views/cef_browser_view_delegate_capi.h)
 // Implement this structure to handle BrowserView events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

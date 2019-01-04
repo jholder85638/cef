@@ -21,7 +21,7 @@ type PrintHandlerProxy interface {
 	GetPdfPaperSize(self *PrintHandler, device_units_per_inch int32) Size
 }
 
-// PrintHandler (cef_print_handler_t from include/capi/cef_print_handler_capi.h)
+// PrintHandler (cef_print_handler_t from .\include/capi/cef_print_handler_capi.h)
 // Implement this structure to handle printing on Linux. Each browser will have
 // only one print job in progress at a time. The functions of this structure
 // will be called on the browser process UI thread.

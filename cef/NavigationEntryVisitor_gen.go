@@ -16,7 +16,7 @@ type NavigationEntryVisitorProxy interface {
 	Visit(self *NavigationEntryVisitor, entry *NavigationEntry, current, index, total int32) int32
 }
 
-// NavigationEntryVisitor (cef_navigation_entry_visitor_t from include/capi/cef_browser_capi.h)
+// NavigationEntryVisitor (cef_navigation_entry_visitor_t from .\include/capi/cef_browser_capi.h)
 // Callback structure for cef_browser_host_t::GetNavigationEntries. The
 // functions of this structure will be called on the browser process UI thread.
 type NavigationEntryVisitor C.cef_navigation_entry_visitor_t

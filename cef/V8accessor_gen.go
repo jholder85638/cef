@@ -9,7 +9,7 @@ import (
 	"C"
 )
 
-// V8accessor (cef_v8accessor_t from include/capi/cef_v8_capi.h)
+// V8accessor (cef_v8accessor_t from .\include/capi/cef_v8_capi.h)
 // Structure that should be implemented to handle V8 accessor calls. Accessor
 // identifiers are registered by calling cef_v8value_t::set_value(). The
 // functions of this structure will be called on the thread associated with the

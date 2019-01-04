@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// PDFPrintSettings (cef_pdf_print_settings_t from include/internal/cef_types.h)
+// PDFPrintSettings (cef_pdf_print_settings_t from .\include/internal/cef_types.h)
 // Structure representing PDF print settings.
 type PDFPrintSettings struct {
 	// HeaderFooterTitle (header_footer_title)

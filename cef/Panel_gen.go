@@ -19,7 +19,7 @@ import (
 	"C"
 )
 
-// Panel (cef_panel_t from include/capi/views/cef_panel_capi.h)
+// Panel (cef_panel_t from include\capi\views\cef_panel_capi.h)
 // A Panel is a container in the views hierarchy that can contain other Views as
 // children. Methods must be called on the browser process UI thread unless
 // otherwise indicated.

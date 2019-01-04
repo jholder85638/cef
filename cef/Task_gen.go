@@ -16,7 +16,7 @@ type TaskProxy interface {
 	Execute(self *Task)
 }
 
-// Task (cef_task_t from include/capi/cef_task_capi.h)
+// Task (cef_task_t from .\include/capi/cef_task_capi.h)
 // Implement this structure for asynchronous task execution. If the task is
 // posted successfully and if the associated message loop is still running then
 // the execute() function will be called on the target thread. If the task fails

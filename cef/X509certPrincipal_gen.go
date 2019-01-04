@@ -16,7 +16,7 @@ import (
 	"C"
 )
 
-// X509certPrincipal (cef_x509cert_principal_t from include/capi/cef_x509_certificate_capi.h)
+// X509certPrincipal (cef_x509cert_principal_t from .\include/capi/cef_x509_certificate_capi.h)
 // Structure representing the issuer or subject field of an X.509 certificate.
 type X509certPrincipal C.cef_x509cert_principal_t
 

@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// BoxLayoutSettings (cef_box_layout_settings_t from include/internal/cef_types.h)
+// BoxLayoutSettings (cef_box_layout_settings_t from .\include/internal/cef_types.h)
 // Settings used when initializing a CefBoxLayout.
 type BoxLayoutSettings struct {
 	// Horizontal (horizontal)

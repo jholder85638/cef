@@ -54,7 +54,7 @@ import (
 	"C"
 )
 
-// V8value (cef_v8value_t from include/capi/cef_v8_capi.h)
+// V8value (cef_v8value_t from .\include/capi/cef_v8_capi.h)
 // Structure representing a V8 value handle. V8 handles can only be accessed
 // from the thread on which they are created. Valid threads for creating a V8
 // handle include the render process main thread (TID_RENDERER) and WebWorker

@@ -17,7 +17,7 @@ type AccessibilityHandlerProxy interface {
 	OnAccessibilityLocationChange(self *AccessibilityHandler, value *Value)
 }
 
-// AccessibilityHandler (cef_accessibility_handler_t from include/capi/cef_accessibility_handler_capi.h)
+// AccessibilityHandler (cef_accessibility_handler_t from include\capi\cef_accessibility_handler_capi.h)
 // Implement this structure to receive accessibility notification when
 // accessibility events have been registered. The functions of this structure
 // will be called on the UI thread.

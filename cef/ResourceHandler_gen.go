@@ -21,7 +21,7 @@ type ResourceHandlerProxy interface {
 	Cancel(self *ResourceHandler)
 }
 
-// ResourceHandler (cef_resource_handler_t from include/capi/cef_resource_handler_capi.h)
+// ResourceHandler (cef_resource_handler_t from .\include/capi/cef_resource_handler_capi.h)
 // Structure used to implement a custom request handler structure. The functions
 // of this structure will always be called on the IO thread.
 type ResourceHandler C.cef_resource_handler_t

@@ -16,7 +16,7 @@ type PDFPrintCallbackProxy interface {
 	OnPdfPrintFinished(self *PDFPrintCallback, path string, ok int32)
 }
 
-// PDFPrintCallback (cef_pdf_print_callback_t from include/capi/cef_browser_capi.h)
+// PDFPrintCallback (cef_pdf_print_callback_t from .\include/capi/cef_browser_capi.h)
 // Callback structure for cef_browser_host_t::PrintToPDF. The functions of this
 // structure will be called on the browser process UI thread.
 type PDFPrintCallback C.cef_pdf_print_callback_t

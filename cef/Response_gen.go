@@ -21,7 +21,7 @@ import (
 	"C"
 )
 
-// Response (cef_response_t from include/capi/cef_response_capi.h)
+// Response (cef_response_t from .\include/capi/cef_response_capi.h)
 // Structure used to represent a web response. The functions of this structure
 // may be called on any thread.
 type Response C.cef_response_t

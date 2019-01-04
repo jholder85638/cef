@@ -18,7 +18,7 @@ import (
 	"C"
 )
 
-// LabelButton (cef_label_button_t from include/capi/views/cef_label_button_capi.h)
+// LabelButton (cef_label_button_t from include\capi\views\cef_label_button_capi.h)
 // LabelButton is a button with optional text and/or icon. Methods must be
 // called on the browser process UI thread unless otherwise indicated.
 type LabelButton C.cef_label_button_t

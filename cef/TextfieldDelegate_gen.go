@@ -17,7 +17,7 @@ type TextfieldDelegateProxy interface {
 	OnAfterUserAction(self *TextfieldDelegate, textfield *Textfield)
 }
 
-// TextfieldDelegate (cef_textfield_delegate_t from include/capi/views/cef_textfield_delegate_capi.h)
+// TextfieldDelegate (cef_textfield_delegate_t from .\include/capi/views/cef_textfield_delegate_capi.h)
 // Implement this structure to handle Textfield events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

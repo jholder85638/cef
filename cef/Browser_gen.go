@@ -28,7 +28,7 @@ import (
 	"C"
 )
 
-// Browser (cef_browser_t from include/capi/cef_browser_capi.h)
+// Browser (cef_browser_t from .\include/capi/cef_browser_capi.h)
 // Structure used to represent a browser window. When used in the browser
 // process the functions of this structure may be called on any thread unless
 // otherwise indicated in the comments. When used in the render process the

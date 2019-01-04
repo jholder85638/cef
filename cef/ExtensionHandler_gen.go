@@ -23,7 +23,7 @@ type ExtensionHandlerProxy interface {
 	GetExtensionResource(self *ExtensionHandler, extension *Extension, browser *Browser, file string, callback *GetExtensionResourceCallback) int32
 }
 
-// ExtensionHandler (cef_extension_handler_t from include/capi/cef_extension_handler_capi.h)
+// ExtensionHandler (cef_extension_handler_t from .\include/capi/cef_extension_handler_capi.h)
 // Implement this structure to handle events related to browser extensions. The
 // functions of this structure will be called on the UI thread. See
 // cef_request_tContext::LoadExtension for information about extension loading.

@@ -18,7 +18,7 @@ type FocusHandlerProxy interface {
 	OnGotFocus(self *FocusHandler, browser *Browser)
 }
 
-// FocusHandler (cef_focus_handler_t from include/capi/cef_focus_handler_capi.h)
+// FocusHandler (cef_focus_handler_t from .\include/capi/cef_focus_handler_capi.h)
 // Implement this structure to handle events related to focus. The functions of
 // this structure will be called on the UI thread.
 type FocusHandler C.cef_focus_handler_t

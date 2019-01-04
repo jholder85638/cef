@@ -16,7 +16,7 @@ type DownloadImageCallbackProxy interface {
 	OnDownloadImageFinished(self *DownloadImageCallback, image_url string, http_status_code int32, image *Image)
 }
 
-// DownloadImageCallback (cef_download_image_callback_t from include/capi/cef_browser_capi.h)
+// DownloadImageCallback (cef_download_image_callback_t from .\include/capi/cef_browser_capi.h)
 // Callback structure for cef_browser_host_t::DownloadImage. The functions of
 // this structure will be called on the browser process UI thread.
 type DownloadImageCallback C.cef_download_image_callback_t

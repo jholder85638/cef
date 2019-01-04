@@ -16,7 +16,7 @@ type ResolveCallbackProxy interface {
 	OnResolveCompleted(self *ResolveCallback, result Errorcode, resolved_ips StringList)
 }
 
-// ResolveCallback (cef_resolve_callback_t from include/capi/cef_request_context_capi.h)
+// ResolveCallback (cef_resolve_callback_t from .\include/capi/cef_request_context_capi.h)
 // Callback structure for cef_request_tContext::ResolveHost.
 type ResolveCallback C.cef_resolve_callback_t
 

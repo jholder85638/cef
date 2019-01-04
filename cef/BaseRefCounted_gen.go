@@ -11,7 +11,7 @@ import (
 	"C"
 )
 
-// BaseRefCounted (cef_base_ref_counted_t from include/capi/cef_base_capi.h)
+// BaseRefCounted (cef_base_ref_counted_t from .\include/capi/cef_base_capi.h)
 // All ref-counted framework structures must include this structure first.
 type BaseRefCounted C.cef_base_ref_counted_t
 

@@ -33,7 +33,7 @@ import (
 	"C"
 )
 
-// Domnode (cef_domnode_t from include/capi/cef_dom_capi.h)
+// Domnode (cef_domnode_t from .\include/capi/cef_dom_capi.h)
 // Structure used to represent a DOM node. The functions of this structure
 // should only be called on the render process main thread.
 type Domnode C.cef_domnode_t

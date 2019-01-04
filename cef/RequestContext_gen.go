@@ -30,7 +30,7 @@ import (
 	"C"
 )
 
-// RequestContext (cef_request_context_t from include/capi/cef_request_context_capi.h)
+// RequestContext (cef_request_context_t from .\include/capi/cef_request_context_capi.h)
 // A request context provides request handling for a set of related browser or
 // URL request objects. A request context can be specified when creating a new
 // browser via the cef_browser_host_t static factory functions or when creating

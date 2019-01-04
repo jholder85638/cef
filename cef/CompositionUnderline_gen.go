@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// CompositionUnderline (cef_composition_underline_t from include/internal/cef_types.h)
+// CompositionUnderline (cef_composition_underline_t from .\include/internal/cef_types.h)
 // Structure representing IME composition underline information. This is a thin
 // wrapper around Blink's WebCompositionUnderline class and should be kept in
 // sync with that.

@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// RequestContextSettings (cef_request_context_settings_t from include/internal/cef_types.h)
+// RequestContextSettings (cef_request_context_settings_t from .\include/internal/cef_types.h)
 // Request context initialization settings. Specify NULL or 0 to get the
 // recommended default values.
 type RequestContextSettings struct {

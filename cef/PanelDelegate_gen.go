@@ -8,7 +8,7 @@ import (
 	"unsafe"
 )
 
-// PanelDelegate (cef_panel_delegate_t from include/capi/views/cef_panel_delegate_capi.h)
+// PanelDelegate (cef_panel_delegate_t from .\include/capi/views/cef_panel_delegate_capi.h)
 // Implement this structure to handle Panel events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

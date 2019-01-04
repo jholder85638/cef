@@ -24,7 +24,7 @@ type DisplayHandlerProxy interface {
 	OnLoadingProgressChange(self *DisplayHandler, browser *Browser, progress float64)
 }
 
-// DisplayHandler (cef_display_handler_t from include/capi/cef_display_handler_capi.h)
+// DisplayHandler (cef_display_handler_t from .\include/capi/cef_display_handler_capi.h)
 // Implement this structure to handle events related to browser display state.
 // The functions of this structure will be called on the UI thread.
 type DisplayHandler C.cef_display_handler_t

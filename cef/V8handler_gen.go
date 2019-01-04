@@ -8,7 +8,7 @@ import (
 	"C"
 )
 
-// V8handler (cef_v8handler_t from include/capi/cef_v8_capi.h)
+// V8handler (cef_v8handler_t from .\include/capi/cef_v8_capi.h)
 // Structure that should be implemented to handle V8 function calls. The
 // functions of this structure will be called on the thread associated with the
 // V8 function.

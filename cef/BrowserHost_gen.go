@@ -8,8 +8,8 @@ import (
 	// void gocef_browser_host_close_browser(cef_browser_host_t * self, int force_close, void (CEF_CALLBACK *callback__)(cef_browser_host_t *, int)) { return callback__(self, force_close); }
 	// int gocef_browser_host_try_close_browser(cef_browser_host_t * self, int (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	// void gocef_browser_host_set_focus(cef_browser_host_t * self, int focus, void (CEF_CALLBACK *callback__)(cef_browser_host_t *, int)) { return callback__(self, focus); }
-	// void * gocef_browser_host_get_window_handle(cef_browser_host_t * self, void * (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
-	// void * gocef_browser_host_get_opener_window_handle(cef_browser_host_t * self, void * (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
+	// HWND gocef_browser_host_get_window_handle(cef_browser_host_t * self, HWND (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
+	// HWND gocef_browser_host_get_opener_window_handle(cef_browser_host_t * self, HWND (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	// int gocef_browser_host_has_view(cef_browser_host_t * self, int (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	// cef_client_t * gocef_browser_host_get_client(cef_browser_host_t * self, cef_client_t * (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	// cef_request_context_t * gocef_browser_host_get_request_context(cef_browser_host_t * self, cef_request_context_t * (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
@@ -60,10 +60,9 @@ import (
 	// cef_extension_t * gocef_browser_host_get_extension(cef_browser_host_t * self, cef_extension_t * (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	// int gocef_browser_host_is_background_host(cef_browser_host_t * self, int (CEF_CALLBACK *callback__)(cef_browser_host_t *)) { return callback__(self); }
 	"C"
-	"unsafe"
 )
 
-// BrowserHost (cef_browser_host_t from include/capi/cef_browser_capi.h)
+// BrowserHost (cef_browser_host_t from .\include/capi/cef_browser_capi.h)
 // Structure used to represent the browser process aspects of a browser window.
 // The functions of this structure can only be called in the browser process.
 // They may be called on any thread in that process unless otherwise indicated
@@ -120,8 +119,8 @@ func (d *BrowserHost) SetFocus(focus int32) {
 // Retrieve the window handle for this browser. If this browser is wrapped in
 // a cef_browser_view_t this function should be called on the browser process
 // UI thread and it will return the handle for the top-level native window.
-func (d *BrowserHost) GetWindowHandle() unsafe.Pointer {
-	return C.gocef_browser_host_get_window_handle(d.toNative(), d.get_window_handle)
+func (d *BrowserHost) GetWindowHandle() HWND {
+	return HWND(C.gocef_browser_host_get_window_handle(d.toNative(), d.get_window_handle))
 }
 
 // GetOpenerWindowHandle (get_opener_window_handle)
@@ -129,8 +128,8 @@ func (d *BrowserHost) GetWindowHandle() unsafe.Pointer {
 // return NULL for non-popup windows or if this browser is wrapped in a
 // cef_browser_view_t. This function can be used in combination with custom
 // handling of modal windows.
-func (d *BrowserHost) GetOpenerWindowHandle() unsafe.Pointer {
-	return C.gocef_browser_host_get_opener_window_handle(d.toNative(), d.get_opener_window_handle)
+func (d *BrowserHost) GetOpenerWindowHandle() HWND {
+	return HWND(C.gocef_browser_host_get_opener_window_handle(d.toNative(), d.get_opener_window_handle))
 }
 
 // HasView (has_view)

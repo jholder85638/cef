@@ -16,7 +16,7 @@ type SetCookieCallbackProxy interface {
 	OnComplete(self *SetCookieCallback, success int32)
 }
 
-// SetCookieCallback (cef_set_cookie_callback_t from include/capi/cef_cookie_capi.h)
+// SetCookieCallback (cef_set_cookie_callback_t from .\include/capi/cef_cookie_capi.h)
 // Structure to implement to be notified of asynchronous completion via
 // cef_cookie_manager_t::set_cookie().
 type SetCookieCallback C.cef_set_cookie_callback_t

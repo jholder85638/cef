@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Time (cef_time_t from include/internal/cef_time.h)
+// Time (cef_time_t from .\include/internal/cef_time.h)
 // Time information. Values should always be in UTC.
 type Time struct {
 	// Year (year)

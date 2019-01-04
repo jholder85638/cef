@@ -16,7 +16,7 @@ type PrintJobCallbackProxy interface {
 	Cont(self *PrintJobCallback)
 }
 
-// PrintJobCallback (cef_print_job_callback_t from include/capi/cef_print_handler_capi.h)
+// PrintJobCallback (cef_print_job_callback_t from .\include/capi/cef_print_handler_capi.h)
 // Callback structure for asynchronous continuation of print job requests.
 type PrintJobCallback C.cef_print_job_callback_t
 

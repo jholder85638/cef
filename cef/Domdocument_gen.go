@@ -21,7 +21,7 @@ import (
 	"C"
 )
 
-// Domdocument (cef_domdocument_t from include/capi/cef_dom_capi.h)
+// Domdocument (cef_domdocument_t from .\include/capi/cef_dom_capi.h)
 // Structure used to represent a DOM document. The functions of this structure
 // should only be called on the render process main thread thread.
 type Domdocument C.cef_domdocument_t

@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// PopupFeatures (cef_popup_features_t from include/internal/cef_types.h)
+// PopupFeatures (cef_popup_features_t from .\include/internal/cef_types.h)
 // Popup window features.
 type PopupFeatures struct {
 	// X (x)

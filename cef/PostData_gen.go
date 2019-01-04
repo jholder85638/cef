@@ -14,7 +14,7 @@ import (
 	"C"
 )
 
-// PostData (cef_post_data_t from include/capi/cef_request_capi.h)
+// PostData (cef_post_data_t from .\include/capi/cef_request_capi.h)
 // Structure used to represent post data for a web request. The functions of
 // this structure may be called on any thread.
 type PostData C.cef_post_data_t

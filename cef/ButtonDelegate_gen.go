@@ -17,7 +17,7 @@ type ButtonDelegateProxy interface {
 	OnButtonStateChanged(self *ButtonDelegate, button *Button)
 }
 
-// ButtonDelegate (cef_button_delegate_t from include/capi/views/cef_button_delegate_capi.h)
+// ButtonDelegate (cef_button_delegate_t from include\capi\views\cef_button_delegate_capi.h)
 // Implement this structure to handle Button events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

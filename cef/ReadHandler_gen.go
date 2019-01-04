@@ -20,7 +20,7 @@ type ReadHandlerProxy interface {
 	MayBlock(self *ReadHandler) int32
 }
 
-// ReadHandler (cef_read_handler_t from include/capi/cef_stream_capi.h)
+// ReadHandler (cef_read_handler_t from .\include/capi/cef_stream_capi.h)
 // Structure the client can implement to provide a custom stream reader. The
 // functions of this structure may be called on any thread.
 type ReadHandler C.cef_read_handler_t

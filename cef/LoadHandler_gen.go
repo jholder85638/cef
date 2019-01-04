@@ -19,7 +19,7 @@ type LoadHandlerProxy interface {
 	OnLoadError(self *LoadHandler, browser *Browser, frame *Frame, errorCode Errorcode, errorText, failedUrl string)
 }
 
-// LoadHandler (cef_load_handler_t from include/capi/cef_load_handler_capi.h)
+// LoadHandler (cef_load_handler_t from .\include/capi/cef_load_handler_capi.h)
 // Implement this structure to handle events related to browser load status. The
 // functions of this structure will be called on the browser process UI thread
 // or render process main thread (TID_RENDERER).

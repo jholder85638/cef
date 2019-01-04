@@ -33,7 +33,7 @@ type RequestHandlerProxy interface {
 	OnRenderProcessTerminated(self *RequestHandler, browser *Browser, status TerminationStatus)
 }
 
-// RequestHandler (cef_request_handler_t from include/capi/cef_request_handler_capi.h)
+// RequestHandler (cef_request_handler_t from .\include/capi/cef_request_handler_capi.h)
 // Implement this structure to handle events related to browser requests. The
 // functions of this structure will be called on the thread indicated.
 type RequestHandler C.cef_request_handler_t

@@ -16,7 +16,7 @@ type JsdialogCallbackProxy interface {
 	Cont(self *JsdialogCallback, success int32, user_input string)
 }
 
-// JsdialogCallback (cef_jsdialog_callback_t from include/capi/cef_jsdialog_handler_capi.h)
+// JsdialogCallback (cef_jsdialog_callback_t from .\include/capi/cef_jsdialog_handler_capi.h)
 // Callback structure used for asynchronous continuation of JavaScript dialog
 // requests.
 type JsdialogCallback C.cef_jsdialog_callback_t

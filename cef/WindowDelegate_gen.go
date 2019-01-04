@@ -25,7 +25,7 @@ type WindowDelegateProxy interface {
 	OnKeyEvent(self *WindowDelegate, window *Window, event *KeyEvent) int32
 }
 
-// WindowDelegate (cef_window_delegate_t from include/capi/views/cef_window_delegate_capi.h)
+// WindowDelegate (cef_window_delegate_t from .\include/capi/views/cef_window_delegate_capi.h)
 // Implement this structure to handle window events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

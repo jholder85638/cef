@@ -11,7 +11,7 @@ import (
 	"unsafe"
 )
 
-// ResourceBundle (cef_resource_bundle_t from include/capi/cef_resource_bundle_capi.h)
+// ResourceBundle (cef_resource_bundle_t from include\capi\cef_resource_bundle_capi.h)
 // Structure used for retrieving resources from the resource bundle (*.pak)
 // files loaded by CEF during startup or via the cef_resource_bundle_tHandler
 // returned from cef_app_t::GetResourceBundleHandler. See CefSettings for

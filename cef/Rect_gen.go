@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Rect (cef_rect_t from include/internal/cef_types.h)
+// Rect (cef_rect_t from .\include/internal/cef_types.h)
 // Structure representing a rectangle.
 type Rect struct {
 	// X (x)

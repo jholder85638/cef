@@ -36,7 +36,7 @@ import (
 	"C"
 )
 
-// DictionaryValue (cef_dictionary_value_t from include/capi/cef_values_capi.h)
+// DictionaryValue (cef_dictionary_value_t from .\include/capi/cef_values_capi.h)
 // Structure representing a dictionary value. Can be used on any process and
 // thread.
 type DictionaryValue C.cef_dictionary_value_t

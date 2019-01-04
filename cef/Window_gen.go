@@ -33,7 +33,7 @@ import (
 	// cef_display_t * gocef_window_get_display(cef_window_t * self, cef_display_t * (CEF_CALLBACK *callback__)(cef_window_t *)) { return callback__(self); }
 	// cef_rect_t gocef_window_get_client_area_bounds_in_screen(cef_window_t * self, cef_rect_t (CEF_CALLBACK *callback__)(cef_window_t *)) { return callback__(self); }
 	// void gocef_window_set_draggable_regions(cef_window_t * self, size_t regionsCount, cef_draggable_region_t * regions, void (CEF_CALLBACK *callback__)(cef_window_t *, size_t, cef_draggable_region_t *)) { return callback__(self, regionsCount, regions); }
-	// void * gocef_window_get_window_handle(cef_window_t * self, void * (CEF_CALLBACK *callback__)(cef_window_t *)) { return callback__(self); }
+	// HWND gocef_window_get_window_handle(cef_window_t * self, HWND (CEF_CALLBACK *callback__)(cef_window_t *)) { return callback__(self); }
 	// void gocef_window_send_key_press(cef_window_t * self, int key_code, uint32 event_flags, void (CEF_CALLBACK *callback__)(cef_window_t *, int, uint32)) { return callback__(self, key_code, event_flags); }
 	// void gocef_window_send_mouse_move(cef_window_t * self, int screen_x, int screen_y, void (CEF_CALLBACK *callback__)(cef_window_t *, int, int)) { return callback__(self, screen_x, screen_y); }
 	// void gocef_window_send_mouse_events(cef_window_t * self, cef_mouse_button_type_t button, int mouse_down, int mouse_up, void (CEF_CALLBACK *callback__)(cef_window_t *, cef_mouse_button_type_t, int, int)) { return callback__(self, button, mouse_down, mouse_up); }
@@ -41,10 +41,9 @@ import (
 	// void gocef_window_remove_accelerator(cef_window_t * self, int command_id, void (CEF_CALLBACK *callback__)(cef_window_t *, int)) { return callback__(self, command_id); }
 	// void gocef_window_remove_all_accelerators(cef_window_t * self, void (CEF_CALLBACK *callback__)(cef_window_t *)) { return callback__(self); }
 	"C"
-	"unsafe"
 )
 
-// Window (cef_window_t from include/capi/views/cef_window_capi.h)
+// Window (cef_window_t from include\capi\views\cef_window_capi.h)
 // A Window is a top-level Window/widget in the Views hierarchy. By default it
 // will have a non-client area with title bar, icon and buttons that supports
 // moving and resizing. All size and position values are in density independent
@@ -260,8 +259,8 @@ func (d *Window) SetDraggableRegions(regionsCount uint64, regions *DraggableRegi
 
 // GetWindowHandle (get_window_handle)
 // Retrieve the platform window handle for this Window.
-func (d *Window) GetWindowHandle() unsafe.Pointer {
-	return C.gocef_window_get_window_handle(d.toNative(), d.get_window_handle)
+func (d *Window) GetWindowHandle() HWND {
+	return HWND(C.gocef_window_get_window_handle(d.toNative(), d.get_window_handle))
 }
 
 // SendKeyPress (send_key_press)

@@ -13,7 +13,7 @@ import (
 	"unsafe"
 )
 
-// StreamWriter (cef_stream_writer_t from include/capi/cef_stream_capi.h)
+// StreamWriter (cef_stream_writer_t from .\include/capi/cef_stream_capi.h)
 // Structure used to write data to a stream. The functions of this structure may
 // be called on any thread.
 type StreamWriter C.cef_stream_writer_t

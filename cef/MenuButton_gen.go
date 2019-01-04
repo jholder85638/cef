@@ -9,7 +9,7 @@ import (
 	"C"
 )
 
-// MenuButton (cef_menu_button_t from include/capi/views/cef_menu_button_capi.h)
+// MenuButton (cef_menu_button_t from include\capi\views\cef_menu_button_capi.h)
 // MenuButton is a button with optional text, icon and/or menu marker that shows
 // a menu when clicked with the left mouse button. All size and position values
 // are in density independent pixels (DIP) unless otherwise indicated. Methods

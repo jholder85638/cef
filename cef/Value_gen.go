@@ -29,7 +29,7 @@ import (
 	"C"
 )
 
-// Value (cef_value_t from include/capi/cef_values_capi.h)
+// Value (cef_value_t from .\include/capi/cef_values_capi.h)
 // Structure that wraps other data value types. Complex types (binary,
 // dictionary and list) will be referenced but not owned by this object. Can be
 // used on any process and thread.

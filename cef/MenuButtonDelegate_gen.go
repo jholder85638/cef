@@ -16,7 +16,7 @@ type MenuButtonDelegateProxy interface {
 	OnMenuButtonPressed(self *MenuButtonDelegate, menu_button *MenuButton, screen_point *Point, button_pressed_lock *MenuButtonPressedLock)
 }
 
-// MenuButtonDelegate (cef_menu_button_delegate_t from include/capi/views/cef_menu_button_delegate_capi.h)
+// MenuButtonDelegate (cef_menu_button_delegate_t from .\include/capi/views/cef_menu_button_delegate_capi.h)
 // Implement this structure to handle MenuButton events. The functions of this
 // structure will be called on the browser process UI thread unless otherwise
 // indicated.

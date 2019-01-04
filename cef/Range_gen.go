@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Range (cef_range_t from include/internal/cef_types.h)
+// Range (cef_range_t from .\include/internal/cef_types.h)
 // Structure representing a range.
 type Range struct {
 	// From (from)

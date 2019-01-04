@@ -8,7 +8,7 @@ import (
 	"unsafe"
 )
 
-// MenuButtonPressedLock (cef_menu_button_pressed_lock_t from include/capi/views/cef_menu_button_delegate_capi.h)
+// MenuButtonPressedLock (cef_menu_button_pressed_lock_t from .\include/capi/views/cef_menu_button_delegate_capi.h)
 // MenuButton pressed lock is released when this object is destroyed.
 type MenuButtonPressedLock struct {
 	// Base (base)

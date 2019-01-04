@@ -18,7 +18,7 @@ type ResourceBundleHandlerProxy interface {
 	GetDataResourceForScale(self *ResourceBundleHandler, resource_id int32, scale_factor ScaleFactor, data *unsafe.Pointer, data_size *uint64) int32
 }
 
-// ResourceBundleHandler (cef_resource_bundle_handler_t from include/capi/cef_resource_bundle_handler_capi.h)
+// ResourceBundleHandler (cef_resource_bundle_handler_t from .\include/capi/cef_resource_bundle_handler_capi.h)
 // Structure used to implement a custom resource bundle structure. See
 // CefSettings for additional options related to resource bundle loading. The
 // functions of this structure may be called on multiple threads.

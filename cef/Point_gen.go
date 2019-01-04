@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// Point (cef_point_t from include/internal/cef_types.h)
+// Point (cef_point_t from .\include/internal/cef_types.h)
 // Structure representing a point.
 type Point struct {
 	// X (x)

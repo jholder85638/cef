@@ -11,7 +11,7 @@ import (
 	"C"
 )
 
-// WebPluginInfo (cef_web_plugin_info_t from include/capi/cef_web_plugin_capi.h)
+// WebPluginInfo (cef_web_plugin_info_t from .\include/capi/cef_web_plugin_capi.h)
 // Information about a specific web plugin.
 type WebPluginInfo C.cef_web_plugin_info_t
 

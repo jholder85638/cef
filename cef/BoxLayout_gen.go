@@ -9,7 +9,7 @@ import (
 	"C"
 )
 
-// BoxLayout (cef_box_layout_t from include/capi/views/cef_box_layout_capi.h)
+// BoxLayout (cef_box_layout_t from include\capi\views\cef_box_layout_capi.h)
 // A Layout manager that arranges child views vertically or horizontally in a
 // side-by-side fashion with spacing around and between the child views. The
 // child views are always sized according to their preferred size. If the host's

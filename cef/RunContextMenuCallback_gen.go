@@ -17,7 +17,7 @@ type RunContextMenuCallbackProxy interface {
 	Cancel(self *RunContextMenuCallback)
 }
 
-// RunContextMenuCallback (cef_run_context_menu_callback_t from include/capi/cef_context_menu_handler_capi.h)
+// RunContextMenuCallback (cef_run_context_menu_callback_t from .\include/capi/cef_context_menu_handler_capi.h)
 // Callback structure used for continuation of custom context menu display.
 type RunContextMenuCallback C.cef_run_context_menu_callback_t
 

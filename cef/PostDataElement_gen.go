@@ -16,7 +16,7 @@ import (
 	"unsafe"
 )
 
-// PostDataElement (cef_post_data_element_t from include/capi/cef_request_capi.h)
+// PostDataElement (cef_post_data_element_t from .\include/capi/cef_request_capi.h)
 // Structure used to represent a single element in the request post data. The
 // functions of this structure may be called on any thread.
 type PostDataElement C.cef_post_data_element_t

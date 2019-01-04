@@ -17,7 +17,7 @@ type DownloadHandlerProxy interface {
 	OnDownloadUpdated(self *DownloadHandler, browser *Browser, download_item *DownloadItem, callback *DownloadItemCallback)
 }
 
-// DownloadHandler (cef_download_handler_t from include/capi/cef_download_handler_capi.h)
+// DownloadHandler (cef_download_handler_t from .\include/capi/cef_download_handler_capi.h)
 // Structure used to handle file downloads. The functions of this structure will
 // called on the browser process UI thread.
 type DownloadHandler C.cef_download_handler_t

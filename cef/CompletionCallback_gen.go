@@ -16,7 +16,7 @@ type CompletionCallbackProxy interface {
 	OnComplete(self *CompletionCallback)
 }
 
-// CompletionCallback (cef_completion_callback_t from include/capi/cef_callback_capi.h)
+// CompletionCallback (cef_completion_callback_t from .\include/capi/cef_callback_capi.h)
 // Generic callback structure used for asynchronous completion.
 type CompletionCallback C.cef_completion_callback_t
 

@@ -97,7 +97,10 @@ func newCVar(name, typeInfo string, pos position) *variable {
 		if v.Ptrs == "**" {
 			v.NeedUnsafe = true
 			v.GoType = "[]string"
-		} else {
+		} else if v.Ptrs == "*" {
+		v.NeedUnsafe = true
+		v.GoType = "string"
+	}else {
 			jot.Fatal(1, errs.Newf("Unhandled char case: %s", v.Ptrs))
 		}
 	case "char16":

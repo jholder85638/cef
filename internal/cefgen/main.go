@@ -22,7 +22,7 @@ import (
 )
 
 const (
-	cefBaseDir    = "/usr/local/cef"
+	cefBaseDir    = "J:/zmcommand.sciter/msys2/usr/local/cef"
 	outputBaseDir = "../../cef"
 )
 

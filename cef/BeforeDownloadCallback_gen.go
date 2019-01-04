@@ -16,7 +16,7 @@ type BeforeDownloadCallbackProxy interface {
 	Cont(self *BeforeDownloadCallback, download_path string, show_dialog int32)
 }
 
-// BeforeDownloadCallback (cef_before_download_callback_t from include/capi/cef_download_handler_capi.h)
+// BeforeDownloadCallback (cef_before_download_callback_t from .\include/capi/cef_download_handler_capi.h)
 // Callback structure used to asynchronously continue a download.
 type BeforeDownloadCallback C.cef_before_download_callback_t
 

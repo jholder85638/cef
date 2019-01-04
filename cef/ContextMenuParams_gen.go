@@ -28,7 +28,7 @@ import (
 	"C"
 )
 
-// ContextMenuParams (cef_context_menu_params_t from include/capi/cef_context_menu_handler_capi.h)
+// ContextMenuParams (cef_context_menu_params_t from .\include/capi/cef_context_menu_handler_capi.h)
 // Provides information about the context menu state. The ethods of this
 // structure can only be accessed on browser process the UI thread.
 type ContextMenuParams C.cef_context_menu_params_t

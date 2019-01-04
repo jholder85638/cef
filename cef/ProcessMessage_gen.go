@@ -12,7 +12,7 @@ import (
 	"C"
 )
 
-// ProcessMessage (cef_process_message_t from include/capi/cef_process_message_capi.h)
+// ProcessMessage (cef_process_message_t from .\include/capi/cef_process_message_capi.h)
 // Structure representing a message. Can be used on any process and thread.
 type ProcessMessage C.cef_process_message_t
 

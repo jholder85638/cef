@@ -21,7 +21,7 @@ import (
 	"unsafe"
 )
 
-// Server (cef_server_t from include/capi/cef_server_capi.h)
+// Server (cef_server_t from include\capi\cef_server_capi.h)
 // Structure representing a server that supports HTTP and WebSocket requests.
 // Server capacity is limited and is intended to handle only a small number of
 // simultaneous connections (e.g. for communicating between applications on

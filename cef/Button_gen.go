@@ -13,7 +13,7 @@ import (
 	"C"
 )
 
-// Button (cef_button_t from include/capi/views/cef_button_capi.h)
+// Button (cef_button_t from include\capi\views\cef_button_capi.h)
 // A View representing a button. Depending on the specific type, the button
 // could be implemented by a native control or custom rendered. Methods must be
 // called on the browser process UI thread unless otherwise indicated.

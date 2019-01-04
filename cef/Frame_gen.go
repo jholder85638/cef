@@ -31,7 +31,7 @@ import (
 	"C"
 )
 
-// Frame (cef_frame_t from include/capi/cef_frame_capi.h)
+// Frame (cef_frame_t from .\include/capi/cef_frame_capi.h)
 // Structure used to represent a frame in the browser window. When used in the
 // browser process the functions of this structure may be called on any thread
 // unless otherwise indicated in the comments. When used in the render process

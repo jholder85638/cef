@@ -15,7 +15,7 @@ import (
 	"C"
 )
 
-// V8exception (cef_v8exception_t from include/capi/cef_v8_capi.h)
+// V8exception (cef_v8exception_t from .\include/capi/cef_v8_capi.h)
 // Structure representing a V8 exception. The functions of this structure may be
 // called on any render process thread.
 type V8exception C.cef_v8exception_t

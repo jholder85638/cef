@@ -17,7 +17,7 @@ type FileDialogCallbackProxy interface {
 	Cancel(self *FileDialogCallback)
 }
 
-// FileDialogCallback (cef_file_dialog_callback_t from include/capi/cef_dialog_handler_capi.h)
+// FileDialogCallback (cef_file_dialog_callback_t from .\include/capi/cef_dialog_handler_capi.h)
 // Callback structure for asynchronous continuation of file dialog requests.
 type FileDialogCallback C.cef_file_dialog_callback_t
 

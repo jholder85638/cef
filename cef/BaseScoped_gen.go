@@ -8,7 +8,7 @@ import (
 	"C"
 )
 
-// BaseScoped (cef_base_scoped_t from include/capi/cef_base_capi.h)
+// BaseScoped (cef_base_scoped_t from .\include/capi/cef_base_capi.h)
 // All scoped framework structures must include this structure first.
 type BaseScoped C.cef_base_scoped_t
 

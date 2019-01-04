@@ -14,7 +14,7 @@ import (
 	"C"
 )
 
-// Display (cef_display_t from include/capi/views/cef_display_capi.h)
+// Display (cef_display_t from include\capi\views\cef_display_capi.h)
 // This structure typically, but not always, corresponds to a physical display
 // connected to the system. A fake Display may exist on a headless system, or a
 // Display may correspond to a remote, virtual display. All size and position

@@ -10,7 +10,7 @@ import (
 	"github.com/jholder85638/toolbox/xio/fs/paths"
 )
 
-// Settings (cef_settings_t from include/internal/cef_types.h)
+// Settings (cef_settings_t from .\include/internal/cef_types.h)
 // Initialization settings. Specify NULL or 0 to get the recommended default
 // values. Many of these and other settings can also configured using command-
 // line switches.

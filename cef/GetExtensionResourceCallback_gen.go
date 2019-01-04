@@ -17,7 +17,7 @@ type GetExtensionResourceCallbackProxy interface {
 	Cancel(self *GetExtensionResourceCallback)
 }
 
-// GetExtensionResourceCallback (cef_get_extension_resource_callback_t from include/capi/cef_extension_handler_capi.h)
+// GetExtensionResourceCallback (cef_get_extension_resource_callback_t from .\include/capi/cef_extension_handler_capi.h)
 // Callback structure used for asynchronous continuation of
 // cef_extension_tHandler::GetExtensionResource.
 type GetExtensionResourceCallback C.cef_get_extension_resource_callback_t

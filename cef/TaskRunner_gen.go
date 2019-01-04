@@ -12,7 +12,7 @@ import (
 	"C"
 )
 
-// TaskRunner (cef_task_runner_t from include/capi/cef_task_capi.h)
+// TaskRunner (cef_task_runner_t from .\include/capi/cef_task_capi.h)
 // Structure that asynchronously executes tasks on the associated thread. It is
 // safe to call the functions of this structure on any thread.
 //

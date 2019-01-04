@@ -17,7 +17,7 @@ type ResponseFilterProxy interface {
 	Filter(self *ResponseFilter, data_in unsafe.Pointer, data_in_size uint64, data_in_read *uint64, data_out unsafe.Pointer, data_out_size uint64, data_out_written *uint64) ResponseFilterStatus
 }
 
-// ResponseFilter (cef_response_filter_t from include/capi/cef_response_filter_capi.h)
+// ResponseFilter (cef_response_filter_t from .\include/capi/cef_response_filter_capi.h)
 // Implement this structure to filter resource response content. The functions
 // of this structure will be called on the browser process IO thread.
 type ResponseFilter C.cef_response_filter_t

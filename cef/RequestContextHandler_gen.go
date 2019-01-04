@@ -18,7 +18,7 @@ type RequestContextHandlerProxy interface {
 	OnBeforePluginLoad(self *RequestContextHandler, mime_type, plugin_url string, is_main_frame int32, top_origin_url string, plugin_info *WebPluginInfo, plugin_policy *PluginPolicy) int32
 }
 
-// RequestContextHandler (cef_request_context_handler_t from include/capi/cef_request_context_handler_capi.h)
+// RequestContextHandler (cef_request_context_handler_t from .\include/capi/cef_request_context_handler_capi.h)
 // Implement this structure to provide handler implementations. The handler
 // instance will not be released until all objects related to the context have
 // been destroyed.

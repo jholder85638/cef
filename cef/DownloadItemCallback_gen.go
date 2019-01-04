@@ -18,7 +18,7 @@ type DownloadItemCallbackProxy interface {
 	Resume(self *DownloadItemCallback)
 }
 
-// DownloadItemCallback (cef_download_item_callback_t from include/capi/cef_download_handler_capi.h)
+// DownloadItemCallback (cef_download_item_callback_t from .\include/capi/cef_download_handler_capi.h)
 // Callback structure used to asynchronously cancel a download.
 type DownloadItemCallback C.cef_download_item_callback_t
 

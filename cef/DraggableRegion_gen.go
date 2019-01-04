@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// DraggableRegion (cef_draggable_region_t from include/internal/cef_types.h)
+// DraggableRegion (cef_draggable_region_t from .\include/internal/cef_types.h)
 // Structure representing a draggable region.
 type DraggableRegion struct {
 	// Bounds (bounds)

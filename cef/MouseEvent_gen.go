@@ -7,7 +7,7 @@ import (
 	"C"
 )
 
-// MouseEvent (cef_mouse_event_t from include/internal/cef_types.h)
+// MouseEvent (cef_mouse_event_t from .\include/internal/cef_types.h)
 // Structure representing mouse event information.
 type MouseEvent struct {
 	// X (x)

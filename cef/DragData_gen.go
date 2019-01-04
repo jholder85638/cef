@@ -32,7 +32,7 @@ import (
 	"C"
 )
 
-// DragData (cef_drag_data_t from include/capi/cef_drag_data_capi.h)
+// DragData (cef_drag_data_t from .\include/capi/cef_drag_data_capi.h)
 // Structure used to represent drag data. The functions of this structure may be
 // called on any thread.
 type DragData C.cef_drag_data_t

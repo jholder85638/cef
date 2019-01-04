@@ -20,7 +20,7 @@ type BrowserProcessHandlerProxy interface {
 	OnScheduleMessagePumpWork(self *BrowserProcessHandler, delay_ms int64)
 }
 
-// BrowserProcessHandler (cef_browser_process_handler_t from include/capi/cef_browser_process_handler_capi.h)
+// BrowserProcessHandler (cef_browser_process_handler_t from .\include/capi/cef_browser_process_handler_capi.h)
 // Structure used to implement browser process callbacks. The functions of this
 // structure will be called on the browser process main thread unless otherwise
 // indicated.

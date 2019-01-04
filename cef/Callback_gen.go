@@ -17,7 +17,7 @@ type CallbackProxy interface {
 	Cancel(self *Callback)
 }
 
-// Callback (cef_callback_t from include/capi/cef_callback_capi.h)
+// Callback (cef_callback_t from .\include/capi/cef_callback_capi.h)
 // Generic callback structure used for asynchronous continuation.
 type Callback C.cef_callback_t
 

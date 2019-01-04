@@ -13,7 +13,7 @@ import (
 	"unsafe"
 )
 
-// StreamReader (cef_stream_reader_t from include/capi/cef_stream_capi.h)
+// StreamReader (cef_stream_reader_t from .\include/capi/cef_stream_capi.h)
 // Structure used to read data from a stream. The functions of this structure
 // may be called on any thread.
 type StreamReader C.cef_stream_reader_t
