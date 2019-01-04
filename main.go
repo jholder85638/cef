@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jholder85638/cef/internal/cmd"
+	"./internal/cmd"
 	"github.com/jholder85638/toolbox/atexit"
 	"github.com/jholder85638/toolbox/cmdline"
 )
